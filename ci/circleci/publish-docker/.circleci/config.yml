@@ -1,0 +1,26 @@
+version: 2.1
+orbs:
+  secrethub: secrethub/cli@0.1.0
+
+jobs:
+  publish:
+    docker:
+      - image: cimg/base:stable
+    environment:
+      DOCKER_USERNAME: secrethub://company/app/docker/username
+      DOCKER_PASSWORD: secrethub://company/app/docker/password
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: Build Docker image
+          command: docker build -t company/app:${CIRCLE_SHA1:0:7} .
+      - secrethub/exec:
+          step-name: Publish Docker image
+          command: |
+            echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+            docker push company/app:${CIRCLE_SHA1:0:7}
+workflows:
+  deploy:
+    jobs:
+      - publish
