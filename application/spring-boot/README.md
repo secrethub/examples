@@ -9,16 +9,16 @@ secrethub service init --description demo_service \
 --permission read --file demo_service.cred <your_username>/demo
 ```
 
-Build the sinatra docker demo
+Build the spring-boot docker demo
 ```
-docker build . -t sinatra:demo
+docker build . -t spring:demo
 ```
 
 Run the docker demo with the secrets in the environment variables
 ```
-docker run -ti -p 8080:4567 \
+docker run -ti -p 8080:8080 \
   -e DEMO_USERNAME=secrethub://<your_username>/demo/username \
   -e DEMO_PASSWORD=secrethub://<your_username>/demo/password \
   -e SECRETHUB_CREDENTIAL=$(cat demo_service.cred) \
-  sinatra:demo
+  spring:demo
 ```
