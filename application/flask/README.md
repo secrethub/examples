@@ -11,14 +11,14 @@ secrethub service init --description demo_service \
 
 Build the sinatra docker demo
 ```
-docker build . -t django:demo
+docker build . -t flask:demo
 ```
 
 Run the docker demo with the secrets in the environment variables
 ```
-docker run -ti -p 8080:8000 \
+docker run -ti -p 8080:5000 \
   -e DEMO_USERNAME=secrethub://<your_username>/demo/username \
   -e DEMO_PASSWORD=secrethub://<your_username>/demo/password \
   -e SECRETHUB_CREDENTIAL=$(cat demo_service.cred) \
-  django:demo
+  flask:demo
 ```
