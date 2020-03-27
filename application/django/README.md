@@ -1,5 +1,5 @@
 # Django application in Docker
-This example checks if the environment variables are set with SecretHub run within the Django application. If this is successful, you will receive a code 200 and a Welcome <username> on localhost:8080, if not a code 500 is shown. 
+This Django example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` are set. If they are, the application responds to requests with a status code 200 and a welcome message. If not, the application responds with status code 500.
 
 ## Prerequisites
 1. Docker installed and running
