@@ -1,0 +1,12 @@
+on: push
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build Docker image
+        run: docker build -t company/app:${GITHUB_SHA:0:7} .
+      - name: Publish Docker image
+        run: |
+          echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+          docker push company/app:${GITHUB_SHA:0:7}
