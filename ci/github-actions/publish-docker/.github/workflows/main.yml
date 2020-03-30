@@ -6,10 +6,12 @@ jobs:
       - uses: actions/checkout@v2
       - name: Build Docker image
         run: docker build -t company/app:${GITHUB_SHA:0:7} .
-      - name: Publish Docker image
+      - uses: secrethub/actions/env-export@v0.1.0
         env:
-          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          SECRETHUB_CREDENTIAL: ${{ secrets.SECRETHUB_CREDENTIAL }}
+          DOCKER_USERNAME: secrethub://company/app/docker/username
+          DOCKER_PASSWORD: secrethub://company/app/docker/password
+      - name: Publish Docker image
         run: |
           echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
           docker push company/app:${GITHUB_SHA:0:7}
