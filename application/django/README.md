@@ -2,8 +2,8 @@
 This Django example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` are set. If they are, the application responds to requests with a status code 200 and a welcome message. If not, the application responds with status code 500.
 
 ## Prerequisites
-1. Docker installed and running
-2. SecretHub installed
+1. [Docker](https://docs.docker.com/install/) installed and running
+2. [SecretHub](https://secrethub.io/docs/start/getting-started/#install) installed
 
 ## Running the example
 
