@@ -31,8 +31,8 @@ docker build . -t flask:demo
 Run the docker demo with the secrets in the environment variables
 ```
 docker run -ti -p 8080:5000 \
-  -e DEMO_USERNAME=secrethub://<your_username>/demo/username \
-  -e DEMO_PASSWORD=secrethub://<your_username>/demo/password \
+  -e DEMO_USERNAME=secrethub://${SECRETHUB_USERNAME}/demo/username \
+  -e DEMO_PASSWORD=secrethub://${SECRETHUB_USERNAME}/demo/password \
   -e SECRETHUB_CREDENTIAL=$(cat demo_service.cred) \
   flask:demo
 ```
