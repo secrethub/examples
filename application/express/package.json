@@ -1,0 +1,14 @@
+{
+  "name": "Secrethub-express-demo",
+  "version": "1.0.0",
+  "description": "secrethub-express-demo",
+  "author": "secrethub",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
