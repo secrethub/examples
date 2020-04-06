@@ -1,5 +1,5 @@
 # ASP.NET application in Docker
-This ASP.NET example checks if the environment variables DEMO_USERNAME and DEMO_PASSWORD are set. If they are, the application responds (at localhost:8080) to the requests with a status code 200 and a welcome message. If not, the application responds with status code 500.
+This ASP.NET example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` are set. If they are, the application responds (at http://localhost:8080) to the requests with a status code 200 and a welcome message. If not, the application responds with status code 500.
 
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
@@ -23,7 +23,7 @@ secrethub service init --description demo_service \
 --permission read --file demo_service.cred ${SECRETHUB_USERNAME}/demo
 ```
 
-Build the ASP.NET docker demo
+Build the ASP.NET Docker demo
 ```
 docker build . -t aspnet-secrethub-demo
 ```
