@@ -16,7 +16,7 @@ If you have a great example of a SecretHub integration yourself or a way to impr
 ## Examples
 
 * CI/CD
-  * [Circle CI](ci/circleci/publish-docker/.circleci)
+  * [Circle CI](ci/circleci/)
   * [GitHub Actions](ci/github-actions/publish-docker/.github/workflows/main.yml)
   * Travis CI
   * GitLab CI
