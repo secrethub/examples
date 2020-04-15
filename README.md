@@ -19,7 +19,7 @@ If you have a great example of a SecretHub integration yourself or a way to impr
   * [Circle CI](ci/circleci/)
   * [GitHub Actions](ci/github-actions/publish-docker/.github/workflows/main.yml)
   * Travis CI
-  * GitLab CI
+  * [GitLab CI](ci/gitlab-ci/)
   * Jenkins
 * Cloud
   * AWS EC2
