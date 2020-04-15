@@ -8,5 +8,5 @@
 </h1>
 
 - [Publish Docker](./publish-docker/)
-     - [Flavor 1](./publish-docker/flavor-1/.gitlabci.yml)
-     - [Flavor 2](./publish-docker/flavor-2/.gitlabci.yml)
+     - [Flavor 1](./publish-docker/flavor-1/.gitlab-ci.yml)
+     - [Flavor 2](./publish-docker/flavor-2/.gitlab-ci.yml)
