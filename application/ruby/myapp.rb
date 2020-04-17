@@ -2,7 +2,7 @@
 require 'sinatra'
 
 port = ENV['PORT'] || 4567
-puts "STARTING SINATRA on port #{port}"
+puts "Starting ruby-secrethub-demo on port #{port}"
 set :port, port
 set :bind, '0.0.0.0'
 

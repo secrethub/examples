@@ -10,7 +10,7 @@ RUN apt-get install -y secrethub-cli
 RUN bundle update
 RUN bundle install
 
-# Expose sinatra standard port 4567
+# Expose ruby standard port 4567
 EXPOSE 4567
 
 # Add the secrethub entrypoint
