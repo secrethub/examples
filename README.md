@@ -31,7 +31,7 @@ If you have a great example of a SecretHub integration yourself or a way to impr
 * Application
   * [Flask](application/flask)
   * [Django](application/django)
-  * Node.js
+  * [Node.js]((application/nodejs)
   * [Ruby](application/ruby)
   * Rails
   * [Spring-boot](application/spring-boot)
