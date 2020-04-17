@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "author": "SecretHub",
-  "license": "ISC",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "http-server": "^0.12.1"
