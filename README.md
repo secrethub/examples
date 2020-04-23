@@ -33,6 +33,6 @@ If you have a great example of a SecretHub integration yourself or a way to impr
   * [Django](application/django)
   * [Node.js](application/nodejs)
   * [Ruby](application/ruby)
-  * Rails
+  * [Rails](application/rails)
   * [Spring-boot](application/spring-boot)
   * [ASP.NET](application/aspnet)
