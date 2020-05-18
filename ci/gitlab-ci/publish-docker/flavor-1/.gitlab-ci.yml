@@ -10,6 +10,6 @@ publish:
   before_script:
     - apk add --repository https://alpine.secrethub.io/alpine/edge/main --allow-untrusted secrethub-cli
   script:
-    - secrethub read company/app/docker/pasword | docker login -u $(secrethub read company/app/docker/username) --password-stdin
     - docker build -t company/app:${CI_COMMIT_SHA:0:7} .
+    - secrethub read company/app/docker/password | docker login -u $(secrethub read company/app/docker/username) --password-stdin
     - docker push company/app:${CI_COMMIT_SHA:0:7}
