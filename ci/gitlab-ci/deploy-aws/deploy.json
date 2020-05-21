@@ -1,0 +1,16 @@
+{
+   "containerDefinitions":[
+      {
+         "name":"sleep",
+         "image":"busybox",
+         "cpu":10,
+         "command":[
+            "sleep",
+            "360"
+         ],
+         "memory":10,
+         "essential":true
+      }
+   ],
+   "family":"sleep360"
+}

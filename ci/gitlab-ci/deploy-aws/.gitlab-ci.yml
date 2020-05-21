@@ -1,4 +1,4 @@
-image: alpine
+image: amazon/aws-cli
 
 stages:
     - deploy
