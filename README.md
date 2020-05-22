@@ -36,3 +36,8 @@ If you have a great example of a SecretHub integration yourself or a way to impr
   * [Rails](application/rails)
   * [Spring-boot](application/spring-boot)
   * [ASP.NET](application/aspnet)
+* DevOps tools
+  * Terraform
+  * Ansible
+  * Chef
+  * Puppet
