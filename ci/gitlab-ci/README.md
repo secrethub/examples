@@ -12,7 +12,5 @@
   GitLab CI Examples
 </h1>
 
-- [Publish Docker](./publish-docker/)
-     - [Flavor 1](./publish-docker/flavor-1/.gitlab-ci.yml)
-     - [Flavor 2](./publish-docker/flavor-2/.gitlab-ci.yml)
+- [Publish Docker](./publish-docker/.gitlab-ci.yml)
 - [Deploy to AWS](./deploy-aws/.gitlab-ci.yml)
