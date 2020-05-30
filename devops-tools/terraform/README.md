@@ -21,4 +21,4 @@ and provide the requested information.
 The credential of the service account will be printed.
 
 > Note that the credential is only printed for demonstration purposes.
-> Service credentials must be kept secure and should not be logged anywhere.
+> Service credentials must be kept secure and should not be logged.
