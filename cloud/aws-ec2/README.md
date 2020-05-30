@@ -1,5 +1,5 @@
 # Deploying to AWS EC2 using Terraform
-This example creates an EC2 instance with an associated IAM Role that can be used by the instance to authenticate to SecretHub.
+This example launches an EC2 instance, deploys the [SecretHub Demo App](https://secrethub.io/docs/start/getting-started/#consume) on it and provisions it with the required secrets using the [SecretHub AWS Identity Provider](https://secrethub.io/docs/reference/aws/). 
 
 ## Prerequisites
 1. [Terraform](https://www.terraform.io/downloads.html) installed
