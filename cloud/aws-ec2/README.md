@@ -31,7 +31,7 @@ sudo yum install -y secrethub-cli
 ```
 
 Next, provision the app with secrets by referencing them in environment variables.
-These will automatically be replaced with the secret values.
+These will automatically be replaced with the corresponding secret values.
 ```
 export DEMO_USERNAME=secrethub://<your-username>/demo/username
 export DEMO_PASSWORD=secrethub://<your-username>/demo/password
