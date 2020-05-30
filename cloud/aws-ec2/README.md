@@ -18,8 +18,28 @@ Initialize a new Terraform working directory
 terraform init
 ```
 
-To build the infrastructure run
+Launch the EC2 instance by running
 ```
 terraform apply
 ```
-and provide the requested values.
+and providing the requested values.
+
+When the instance is fully up and running, connect to it, and install the SecretHub CLI:
+```
+sudo curl https://yum.secrethub.io/secrethub.repo --output /etc/yum/repos.d/secrethub.repo --create-dirs
+sudo yum install -y secrethub-cli
+```
+
+Next, provision the app with secrets by referencing them in environment variables.
+These will automatically be replaced with the secret values.
+```
+export DEMO_USERNAME=secrethub://<your-username>/demo/username
+export DEMO_PASSWORD=secrethub://<your-username>/demo/password
+```
+
+Finally, run the app with the `secrethub run` command
+```
+secrethub run --identity-provider=aws -- secrethub demo serve --host 0.0.0.0 --port 8080
+```
+
+To see the app running, visit `http://<EC2-INSTANCE-IP>:8080`.
