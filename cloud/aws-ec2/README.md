@@ -13,16 +13,11 @@ Init the SecretHub demo repo with example values
 secrethub demo init
 ```
 
-Initialize a new Terraform working directory
+To launch an example EC2 instance (`t2.nano`), run:
 ```
 terraform init
-```
-
-Launch the EC2 instance by running
-```
 terraform apply
 ```
-and providing the requested values.
 
 When the instance is fully up and running, connect to it, and install the SecretHub CLI:
 ```
