@@ -17,5 +17,6 @@ resource "secrethub_access_rule" "demo_access_rule" {
 }
 
 output "service_credential" {
-  value = secrethub_service.demo_service_account.credential
+  value     = secrethub_service.demo_service_account.credential
+  sensitive = true
 }
