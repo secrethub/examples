@@ -19,7 +19,12 @@ terraform init
 terraform apply
 ```
 
-When the instance is fully up and running, connect to it, and install the SecretHub CLI:
+When the instance is fully up and running, get its public IP:
+```
+terraform output public_ip
+```
+
+Connect to the instance and install the SecretHub CLI:
 ```
 sudo curl https://yum.secrethub.io/secrethub.repo --output /etc/yum/repos.d/secrethub.repo --create-dirs
 sudo yum install -y secrethub-cli
