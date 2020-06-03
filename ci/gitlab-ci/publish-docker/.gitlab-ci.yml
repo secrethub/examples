@@ -1,0 +1,17 @@
+stages:
+  - publish
+publish:
+  stage: publish
+  image: docker:19.03.1
+  services:
+    - docker:19.03.1-dind
+  variables:
+    DOCKER_TLS_CERTDIR: "/certs"
+    DOCKER_USERNAME: secrethub://company/app/docker/username
+    DOCKER_PASSWORD: secrethub://company/app/docker/password
+  before_script:
+    - apk add --repository https://alpine.secrethub.io/alpine/edge/main --allow-untrusted secrethub-cli
+  script:
+    - secrethub run -- sh -c 'echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin'
+    - docker build -t company/app:${CI_COMMIT_SHA:0:7} .
+    - docker push company/app:${CI_COMMIT_SHA:0:7}

@@ -1,0 +1,15 @@
+image: amazon/aws-cli
+
+stages:
+    - deploy
+
+deploy:
+    stage: deploy
+    variables:
+      AWS_REGION: us-east-1
+      AWS_ACCESS_KEY_ID: secrethub://company/app/aws/access_key_id
+      AWS_SECRET_ACCESS_KEY: secrethub://company/app/aws/secret_access_key
+    before_script:
+        - apk add --repository https://alpine.secrethub.io/alpine/edge/main --allow-untrusted secrethub-cli
+    script:
+        - secrethub run -- ./deploy.sh
