@@ -23,7 +23,7 @@ If you have a great example of a SecretHub integration yourself or a way to impr
   * Jenkins
 * Cloud
   * AWS EC2
-  * AWS ECS
+  * [AWS ECS](aws/ecs/)
   * AWS Lambda (Golang)
   * Linux VMS
 * IDE
