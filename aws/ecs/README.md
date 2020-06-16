@@ -1,4 +1,14 @@
-# Deploying to AWS EC2 using Terraform
+<p align="center">
+  <img src="https://secrethub.io/img/integrations/aws-ecs/github-banner.png?v1" alt="AWS ECS + SecretHub" width="390">
+</p>
+<br/>
+
+<p align="center">
+  <a href="https://secrethub.io/docs/guides/aws-ecs/"><img alt="View Docs" src="https://secrethub.io/img/buttons/github/view-docs.png?v2" height="28" /></a>
+</p>
+<br/>
+
+# Deploying to AWS ECS using Terraform
 This example creates an ECS cluster and deploys the [SecretHub Demo App](https://secrethub.io/docs/start/getting-started/#consume) to it and provisions it with the required secrets using the [SecretHub AWS Identity Provider](https://secrethub.io/docs/reference/aws/).
 
 ## Prerequisites
