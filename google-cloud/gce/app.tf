@@ -30,7 +30,7 @@ resource "secrethub_access_rule" "demo_app" {
 }
 
 resource "google_compute_instance" "demo_app" {
-  name         = "demo-app"
+  name         = "secrethub-demo"
   machine_type = "n1-standard-1"
   zone         = var.gcp_zone
 
