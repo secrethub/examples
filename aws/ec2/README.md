@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="https://secrethub.io/img/integrations/aws-ec2/github-banner.png?v1" alt="AWS EC2 + SecretHub" width="390">
+</p>
+<br/>
+
+<p align="center">
+  <a href="https://secrethub.io/docs/guides/aws-ec2/"><img alt="View Docs" src="https://secrethub.io/img/buttons/github/view-docs.png?v2" height="28" /></a>
+</p>
+<br/>
+
 # Deploying to AWS EC2 using Terraform
 This example launches an EC2 instance, deploys the [SecretHub Demo App](https://secrethub.io/docs/start/getting-started/#consume) on it and provisions it with the required secrets using the [SecretHub AWS Identity Provider](https://secrethub.io/docs/reference/aws/). 
 
