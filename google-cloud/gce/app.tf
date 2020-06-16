@@ -59,12 +59,7 @@ resource "google_compute_instance" "demo_app" {
 
   service_account {
     email = google_service_account.demo_app.email
-    scopes = [
-      "userinfo-email",
-      "compute-ro",
-      "storage-ro",
-      "https://www.googleapis.com/auth/cloudkms"
-    ]
+    scopes = ["https://www.googleapis.com/auth/cloudkms"]
   }
 
   allow_stopping_for_update = true
