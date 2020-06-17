@@ -38,18 +38,18 @@ resource "aws_iam_role_policy_attachment" "secrethub_demo_auth" {
   policy_arn = aws_iam_policy.secrethub_auth.arn
 }
 
-variable "secrethub_username" {
-  description = "Your SecretHub username"
+variable "secrethub_repo" {
+  description = "Your SecretHub repository"
 }
 
 resource "secrethub_service_aws" "demo_app" {
-  repo        = "${var.secrethub_username}/demo"
+  repo        = var.secrethub_repo
   role        = aws_iam_role.secrethub_demo.name
   kms_key_arn = aws_kms_key.secrethub_auth.arn
 }
 resource "secrethub_access_rule" "demo_app" {
   account_name = secrethub_service_aws.demo_app.id
-  dir          = "${var.secrethub_username}/demo"
+  dir          = var.secrethub_repo
   permission   = "read"
 }
 
@@ -89,11 +89,11 @@ locals {
         },
         {
           name  = "DEMO_USERNAME"
-          value = "secrethub://${var.secrethub_username}/demo/username"
+          value = "secrethub://${var.secrethub_repo}/username"
         },
         {
           name  = "DEMO_PASSWORD"
-          value = "secrethub://${var.secrethub_username}/demo/password"
+          value = "secrethub://${var.secrethub_repo}/password"
         },
       ]
     },
