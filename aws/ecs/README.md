@@ -29,4 +29,4 @@ terraform init
 terraform apply
 ```
 
-Get the public IP of the cluster from the AWS console or using the AWS CLI and visit `http://<PUBLIC-IP>` to see the app running.
+Get the public IP of the cluster from the AWS console or using the AWS CLI and visit `http://<PUBLIC-IP>:8080` to see the app running.
