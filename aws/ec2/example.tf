@@ -73,12 +73,16 @@ resource "aws_instance" "secrethub_demo" {
   instance_type               = "t2.nano"
   ami                         = data.aws_ami.amazon_linux.id
   iam_instance_profile        = aws_iam_instance_profile.secrethub_demo.name
-  security_groups             = [aws_security_group.secrethub_demo.id]
+  security_groups             = [aws_security_group.secrethub_demo.name]
   key_name                    = var.key_name
   associate_public_ip_address = true
   user_data = <<EOF
 		#! /bin/bash
-    curl https://apt.secrethub.io | bash
+    sudo curl https://yum.secrethub.io/secrethub.repo --output /etc/yum/repos.d/secrethub.repo --create-dirs
+    sudo yum install -y secrethub-cli
+    export DEMO_USERNAME=secrethub://${var.secrethub_repo}/username
+    export DEMO_PASSWORD=secrethub://${var.secrethub_repo}/password
+    secrethub run --identity-provider=aws -- secrethub demo serve --host 0.0.0.0 --port 8080
 	EOF
 }
 
