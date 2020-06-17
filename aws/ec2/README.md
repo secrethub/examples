@@ -23,6 +23,8 @@ Init the SecretHub demo repo with example values
 secrethub demo init
 ```
 
+Create an EC2 key pair by following the [AWS user guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#how-to-generate-your-own-key-and-import-it-to-aws), if you do not have one already.
+
 To launch an example EC2 instance (`t2.nano`), run:
 ```
 terraform init
