@@ -29,27 +29,8 @@ terraform init
 terraform apply
 ```
 
-When the instance is fully up and running, get its public IP:
-```
-terraform output public_ip
-```
-
-Connect to the instance and install the SecretHub CLI:
-```
-sudo curl https://yum.secrethub.io/secrethub.repo --output /etc/yum/repos.d/secrethub.repo --create-dirs
-sudo yum install -y secrethub-cli
-```
-
-Next, provision the app with secrets by referencing them in environment variables.
-These will automatically be replaced with the corresponding secret values.
-```
-export DEMO_USERNAME=secrethub://<your-username>/demo/username
-export DEMO_PASSWORD=secrethub://<your-username>/demo/password
-```
-
-Finally, run the app with the `secrethub run` command
-```
-secrethub run --identity-provider=aws -- secrethub demo serve --host 0.0.0.0 --port 8080
-```
+Once the instance is running its public IP will be outputted.
 
 To see the app running, visit `http://<EC2-INSTANCE-IP>:8080`.
+
+> Note that it might take a couple minutes for the instance to be accessible from the browser.
