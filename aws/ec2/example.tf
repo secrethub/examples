@@ -76,7 +76,7 @@ resource "aws_instance" "secrethub_demo" {
   security_groups             = [aws_security_group.secrethub_demo.id]
   key_name                    = var.key_name
   associate_public_ip_address = true
-  user_data = << EOF
+  user_data = <<EOF
 		#! /bin/bash
     curl https://apt.secrethub.io | bash
 	EOF
