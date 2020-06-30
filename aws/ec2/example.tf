@@ -38,23 +38,16 @@ resource "aws_iam_role_policy_attachment" "secrethub_demo_auth" {
   policy_arn = aws_iam_policy.secrethub_auth.arn
 }
 
-variable "secrethub_repo" {
-  description = "The name of your SecretHub repository."
-}
-
 resource "secrethub_service_aws" "demo_app" {
   repo        = var.secrethub_repo
   role        = aws_iam_role.secrethub_demo.name
   kms_key_arn = aws_kms_key.secrethub_auth.arn
 }
+
 resource "secrethub_access_rule" "demo_app" {
   account_name = secrethub_service_aws.demo_app.id
   dir          = var.secrethub_repo
   permission   = "read"
-}
-
-variable "port" {
-  default = 8080
 }
 
 data "aws_ami" "amazon_linux" {
@@ -110,8 +103,4 @@ resource "aws_security_group" "secrethub_demo" {
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
-}
-
-output "public_ip" {
-  value = aws_instance.secrethub_demo.public_ip
 }
