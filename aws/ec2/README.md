@@ -9,7 +9,7 @@
 <br/>
 
 # Deploying to AWS EC2 using Terraform
-This example launches an EC2 instance, deploys the [SecretHub Demo App](https://secrethub.io/docs/start/getting-started/#consume) on it and provisions it with the required secrets using the [SecretHub AWS Identity Provider](https://secrethub.io/docs/reference/aws/). 
+This example uses Terraform to launch an EC2 instance, deploy the [SecretHub Demo App](https://secrethub.io/docs/start/getting-started/#consume) on it and provision it with the required secrets using the [SecretHub AWS Identity Provider](https://secrethub.io/docs/reference/aws/). 
 
 ## Prerequisites
 1. [Terraform](https://www.terraform.io/downloads.html) installed
