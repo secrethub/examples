@@ -22,7 +22,7 @@ If you have a great example of a SecretHub integration yourself or a way to impr
   * [GitLab CI](ci/gitlab-ci/)
   * Jenkins
 * Cloud
-  * AWS EC2
+  * [AWS EC2](aws/ec2)
   * AWS ECS
   * AWS Lambda (Golang)
   * Linux VMS
