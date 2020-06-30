@@ -53,8 +53,6 @@ resource "secrethub_access_rule" "demo_app" {
   permission   = "read"
 }
 
-variable "key_name" {}
-
 variable "port" {
   default = 8080
 }
@@ -74,7 +72,6 @@ resource "aws_instance" "secrethub_demo" {
   ami                         = data.aws_ami.amazon_linux.id
   iam_instance_profile        = aws_iam_instance_profile.secrethub_demo.name
   security_groups             = [aws_security_group.secrethub_demo.name]
-  key_name                    = var.key_name
   associate_public_ip_address = true
   user_data = <<EOF
 		#! /bin/bash
