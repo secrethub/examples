@@ -72,7 +72,7 @@ resource "aws_instance" "secrethub_demo" {
     sudo yum install -y secrethub-cli
     export DEMO_USERNAME=secrethub://${var.secrethub_repo}/username
     export DEMO_PASSWORD=secrethub://${var.secrethub_repo}/password
-    secrethub run --identity-provider=aws -- secrethub demo serve --host 0.0.0.0 --port 8080
+    secrethub run --identity-provider=aws -- secrethub demo serve --host 0.0.0.0 --port ${var.port}
 	  EOT
 }
 
