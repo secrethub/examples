@@ -38,10 +38,6 @@ resource "aws_iam_role_policy_attachment" "secrethub_demo_auth" {
   policy_arn = aws_iam_policy.secrethub_auth.arn
 }
 
-variable "secrethub_repo" {
-  description = "Your SecretHub repository"
-}
-
 resource "secrethub_service_aws" "demo_app" {
   repo        = var.secrethub_repo
   role        = aws_iam_role.secrethub_demo.name
@@ -56,6 +52,7 @@ resource "secrethub_access_rule" "demo_app" {
 resource "aws_ecs_cluster" "secrethub_demo" {
   name = "SecretHubDemoCluster"
 }
+
 data "aws_iam_role" "ecs_execution_role" {
   name = "ecsTaskExecutionRole"
 }
@@ -98,12 +95,6 @@ locals {
       ]
     },
   ]
-}
-
-variable "vpc_id" {}
-
-variable "subnets" {
-  type = list(string)
 }
 
 resource "aws_ecs_service" "secrethub_demo" {
