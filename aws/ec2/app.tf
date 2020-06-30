@@ -73,7 +73,7 @@ resource "aws_instance" "secrethub_demo" {
     export DEMO_USERNAME=secrethub://${var.secrethub_repo}/username
     export DEMO_PASSWORD=secrethub://${var.secrethub_repo}/password
     secrethub run --identity-provider=aws -- secrethub demo serve --host 0.0.0.0 --port ${var.port}
-	  EOT
+    EOT
 }
 
 resource "aws_iam_instance_profile" "secrethub_demo" {
