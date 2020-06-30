@@ -66,14 +66,14 @@ resource "aws_instance" "secrethub_demo" {
   iam_instance_profile        = aws_iam_instance_profile.secrethub_demo.name
   security_groups             = [aws_security_group.secrethub_demo.name]
   associate_public_ip_address = true
-  user_data = <<EOF
-		#! /bin/bash
+  user_data = <<-EOT
+    #! /bin/bash
     sudo curl https://yum.secrethub.io/secrethub.repo --output /etc/yum/repos.d/secrethub.repo --create-dirs
     sudo yum install -y secrethub-cli
     export DEMO_USERNAME=secrethub://${var.secrethub_repo}/username
     export DEMO_PASSWORD=secrethub://${var.secrethub_repo}/password
     secrethub run --identity-provider=aws -- secrethub demo serve --host 0.0.0.0 --port 8080
-	EOF
+	EOT
 }
 
 resource "aws_iam_instance_profile" "secrethub_demo" {
