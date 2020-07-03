@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://secrethub.io/img/integrations/aws-ec2/github-banner.png?v1" alt="AWS EC2 + SecretHub" width="390">
+  <img src="https://secrethub.io/img/integrations/aws-ec2/github-banner.png?v1" alt="AWS EC2 + SecretHub" height="230">
 </p>
 <br/>
 
@@ -11,9 +11,10 @@
 This example uses Terraform to launch an EC2 instance, deploy the [SecretHub Demo App](https://secrethub.io/docs/start/getting-started/#consume) on it and provision it with the required secrets using the [SecretHub AWS Identity Provider](https://secrethub.io/docs/reference/aws/). 
 
 ## Prerequisites
-1. [Terraform](https://www.terraform.io/downloads.html) installed
-2. [SecretHub](https://secrethub.io/docs/start/getting-started/#install) installed
+1. [Terraform](https://www.terraform.io/downloads.html) installed along with the [SecretHub Provider](https://secrethub.io/docs/guides/terraform/#install)
 3. Correctly configured [AWS Credentials](https://www.terraform.io/docs/providers/aws/index.html#authentication)
+
+See [variables.tf](./variables.tf) for the variables you need to set.
 
 ## Running the example
 
@@ -22,7 +23,7 @@ Init the SecretHub demo repo with example values
 secrethub demo init
 ```
 
-To launch an example EC2 instance (`t2.nano`), run:
+To launch an example EC2 instance (`t2.nano`), that runs the demo app, run:
 ```
 terraform init
 terraform apply
