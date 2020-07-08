@@ -12,9 +12,8 @@ This example uses Terraform to launch an EC2 instance, deploy the [SecretHub Dem
 
 ## Prerequisites
 1. [Terraform](https://www.terraform.io/downloads.html) installed along with the [SecretHub Provider](https://secrethub.io/docs/guides/terraform/#install)
-3. Correctly configured [AWS Credentials](https://www.terraform.io/docs/providers/aws/index.html#authentication)
-
-See [variables.tf](./variables.tf) for the variables you need to set.
+1. Correctly configured [AWS Credentials](https://www.terraform.io/docs/providers/aws/index.html#authentication)
+1. Variables in [variables.tf](./variables.tf)
 
 ## Running the example
 

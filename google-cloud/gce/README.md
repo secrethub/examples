@@ -13,8 +13,7 @@ This example uses Terraform to launch an Google Compute instance, deploy the [Se
 ## Prerequisites
 1. [Terraform](https://www.terraform.io/downloads.html) installed along with the [SecretHub Provider](https://secrethub.io/docs/guides/terraform/#install)
 1. Correctly configured [GCP Credentials](https://www.terraform.io/docs/providers/google/guides/provider_reference.html#full-reference)
-
-See [variables.tf](./variables.tf) for the variables you need to set.
+1. Variables in [variables.tf](./variables.tf)
 
 ## Running the example
 
