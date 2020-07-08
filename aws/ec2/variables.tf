@@ -1,5 +1,5 @@
 variable "secrethub_repo" {
-  description = "The name of your SecretHub repository."
+  description = "SecretHub repo that contains the demo `username` and `password` secrets. To create the repo, run `secrethub demo init`."
 }
 
 variable "port" {

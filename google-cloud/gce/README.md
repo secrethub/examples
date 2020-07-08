@@ -17,11 +17,6 @@ This example uses Terraform to launch an Google Compute instance, deploy the [Se
 
 ## Running the example
 
-Init the SecretHub demo repo with example values
-```
-secrethub demo init
-```
-
 To launch a Compute instance (`n1-standard-1`) that runs the demo app, run:
 ```
 terraform init

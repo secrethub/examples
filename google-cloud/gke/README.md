@@ -17,11 +17,6 @@ This example uses Terraform to deploy the [SecretHub Demo App](https://secrethub
 
 ## Running the example
 
-Init the SecretHub demo repo with example values
-```
-secrethub demo init
-```
-
 To deploy the app on your cluster, run:
 ```
 terraform init

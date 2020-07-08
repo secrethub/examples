@@ -17,11 +17,6 @@ This example uses Terraform to launch an EC2 instance, deploy the [SecretHub Dem
 
 ## Running the example
 
-Init the SecretHub demo repo with example values
-```
-secrethub demo init
-```
-
 To launch an example EC2 instance (`t2.nano`), that runs the demo app, run:
 ```
 terraform init
