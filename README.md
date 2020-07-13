@@ -13,6 +13,8 @@ We're adding more examples over time (starting with the ones listed below), so k
 
 If you have a great example of a SecretHub integration yourself or a way to improve an example, feel free (and very welcome) to make a pull request.
 
+> [SecretHub][secrethub] is a secrets management tool that works for every engineer. Securely provision passwords and keys throughout your entire stack with just a few lines of code.
+
 ## Examples
 
 * CI/CD
