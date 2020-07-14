@@ -43,3 +43,5 @@ If you have a great example of a SecretHub integration yourself or a way to impr
   * Ansible
   * Chef
   * Puppet
+
+[secrethub]: https://secrethub.io/
