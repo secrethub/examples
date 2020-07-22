@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://secrethub.io/img/integrations/gitlab-ci/github-banner.png?v1" alt="GitLab CI + SecretHub" width="390">
+  <img src="https://secrethub.io/img/integrations/gitlab-ci/github-banner.png?v1" alt="GitLab CI + SecretHub" height="230">
 </p>
 <br/>
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://secrethub.io/img/integrations/circleci/github-banner.png?v1" alt="CircleCI + SecretHub" width="390">
+  <img src="https://secrethub.io/img/integrations/circleci/github-banner.png?v1" alt="CircleCI + SecretHub" height="230">
 </p>
 <br/>
 

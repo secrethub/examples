@@ -18,7 +18,7 @@ If you have a great example of a SecretHub integration yourself or a way to impr
 ## Examples
 
 * CI/CD
-  * [Circle CI](ci/circleci/)
+  * [CircleCI](ci/circleci/)
   * [GitHub Actions](ci/github-actions/publish-docker/.github/workflows/main.yml)
   * Travis CI
   * [GitLab CI](ci/gitlab-ci/)
@@ -27,9 +27,9 @@ If you have a great example of a SecretHub integration yourself or a way to impr
   * [AWS EC2](aws/ec2)
   * AWS ECS
   * AWS Lambda (Golang)
+  * [Google Compute Engine](google-cloud/gce)
+  * [Google Kubernetes Engine](google-cloud/gke)
   * Linux VMS
-* IDE
-  * VS Code
 * Application
   * [Flask](application/flask)
   * [Django](application/django)
@@ -43,5 +43,7 @@ If you have a great example of a SecretHub integration yourself or a way to impr
   * Ansible
   * Chef
   * Puppet
+* IDE
+  * VS Code
 
 [secrethub]: https://secrethub.io/
