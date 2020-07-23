@@ -1,16 +1,16 @@
-# Rails application in Docker
-This rails example checks if the environment variables DEMO_USERNAME and DEMO_PASSWORD are set. If they are, the application responds (at localhost:8080) to the requests with a status code 200 and a welcome message. If not, the application responds with status code 500.
+<p align="center">
+  <img src="https://secrethub.io/img/integrations/rails/github-banner.png?v1" alt="Rails + SecretHub" height="230">
+</p>
+<br/>
+
+This Ruby on Rails example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's the case, you'll receive a `200` on http://localhost:8080 and if it's not, you'll get a `500`.
 
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
-2. [SecretHub](https://secrethub.io/docs/start/getting-started/#install) installed
+1. [SecretHub](https://secrethub.io/docs/start/getting-started/#install) installed
+1. A SecretHub repo that contains a `username` and `password` secret. To create it, run `secrethub demo init`.
 
 ## Running the example
-
-Init the SecretHub demo repo with example values
-```
-secrethub demo init
-```
 
 Set the SecretHub username in an environment variable
 ```
