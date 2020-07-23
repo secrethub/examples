@@ -23,7 +23,7 @@ WORKDIR /myapp/secrethub_demo/
 EXPOSE 3000
 
 # Add the secrethub entrypoint
-ENTRYPOINT ["secrethub","run","--"]
+ENTRYPOINT ["secrethub", "run", "--"]
 
 # Start the main process
-CMD ["rails","server","-b","0.0.0.0"]
+CMD ["rails", "server", "-b", "0.0.0.0"]
