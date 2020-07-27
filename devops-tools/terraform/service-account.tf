@@ -16,6 +16,14 @@ resource "secrethub_access_rule" "demo_access_rule" {
   permission   = "read"
 }
 
+resource "secrethub_secret" "test_secret" {
+  path = "${var.secrethub_username}/${var.repo_name}/test"
+
+  generate {
+    length   = 22
+  }
+}
+
 output "service_credential" {
   value     = secrethub_service.demo_service_account.credential
   sensitive = true
