@@ -12,7 +12,7 @@ Initialize a terraform working directory by running:
 terraform init
 ```
 
-To update the infrastructure run:
+To create the service account, run:
 ```
 terraform apply
 ```
@@ -22,3 +22,10 @@ The credential of the service account will be printed.
 
 > Note that the credential is only printed for demonstration purposes.
 > Service credentials must be kept secure and should not be logged.
+
+Moreover, a secret named `test` is also created in the specified repo.
+
+To verify that the service indeed has read access on repo, try reading the test secret with the service credential:
+```
+SECRETHUB_CREDENTIAL=<your-service-credential> secrethub read <your-username>/<repo>/test
+```
