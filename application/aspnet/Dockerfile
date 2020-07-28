@@ -24,6 +24,6 @@ RUN apk add --repository https://alpine.secrethub.io/alpine/edge/main --allow-un
 EXPOSE 80
 
 # Add the SecretHub entrypoint
-ENTRYPOINT ["secrethub","run","--"]
+ENTRYPOINT ["secrethub", "run", "--"]
 
 CMD ["./example"]

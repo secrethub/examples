@@ -14,7 +14,7 @@ RUN bundle install
 EXPOSE 4567
 
 # Add the secrethub entrypoint
-ENTRYPOINT ["secrethub","run","--"]
+ENTRYPOINT ["secrethub", "run", "--"]
 
 # Start the main process
 CMD ["ruby", "myapp.rb"]

@@ -11,7 +11,7 @@ RUN apk add --repository https://alpine.secrethub.io/alpine/edge/main --allow-un
 EXPOSE 8080
 
 # Add the SecretHub entrypoint
-ENTRYPOINT ["secrethub","run","--"]
+ENTRYPOINT ["secrethub", "run", "--"]
 
 # Start the main process
-CMD ["npm","start"]
+CMD ["npm", "start"]

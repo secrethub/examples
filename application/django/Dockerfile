@@ -24,7 +24,7 @@ COPY views.py views.py
 EXPOSE 8000
 
 # Add the SecretHub entrypoint
-ENTRYPOINT ["secrethub","run","--"]
+ENTRYPOINT ["secrethub", "run", "--"]
 
 # Start the main process
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
