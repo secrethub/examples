@@ -27,5 +27,5 @@ Moreover, a secret named `test` is also created in the specified repo.
 
 To verify that the service indeed has read access on repo, try reading the test secret with the service credential:
 ```
-SECRETHUB_CREDENTIAL=<your-service-credential> secrethub read <your-username>/<repo>/test
+SECRETHUB_CREDENTIAL=$(terraform output service_credential) secrethub read $(terraform output secret_path)
 ```
