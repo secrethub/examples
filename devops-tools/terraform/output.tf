@@ -4,6 +4,6 @@ output "service_credential" {
 }
 
 output "secret_path" {
-  value     = demo_service_account.repo
+  value     = secrethub_secret.test_secret.path
   sensitive = false
 }
