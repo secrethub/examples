@@ -1,4 +1,4 @@
-This Laravel example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's the case, you'll receive a `200` on http://localhost:8080 and if it's not, you'll get a `500`.
+This Laravel example checks if the environment variables `APP_USERNAME` and `APP_PASSWORD` have been set. If that's the case, you'll receive a `200` on http://localhost:8080 and if it's not, you'll get a `500`.
 
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
