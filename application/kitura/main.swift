@@ -3,7 +3,7 @@ import Foundation
 
 let router = Router()
 
-if ProcessInfo.processInfo.environment["DEMO-USERNAME"] != nil && ProcessInfo.processInfo.environment["DEMO-PASSWORD"] != nil {
+if ProcessInfo.processInfo.environment["DEMO_USERNAME"] == nil || ProcessInfo.processInfo.environment["DEMO_PASSWORD"] == nil {
     router.get("/") { request, response, next in
         response.send("either your username, your password, or both have not been set")
         next()
