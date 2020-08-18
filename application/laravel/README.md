@@ -1,5 +1,3 @@
-This Laravel example checks if the environment variables `APP_USERNAME` and `APP_PASSWORD` have been set. If that's the case, you'll receive a `200` on http://localhost:8000 and if it's not, you'll get a `500`.
-
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
 1. [SecretHub](https://secrethub.io/docs/start/getting-started/#install) installed
