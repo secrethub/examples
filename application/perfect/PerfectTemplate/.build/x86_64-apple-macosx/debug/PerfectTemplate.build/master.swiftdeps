@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "d5614cd53bcbac1273c913ef8ac0b62b"
-build_time: [1597842286, 19998000]
-inputs:
-  "/Users/horiaculea/Desktop/PerfectTemplate/Sources/PerfectTemplate/main.swift": !dirty [1597842281, 632636205]

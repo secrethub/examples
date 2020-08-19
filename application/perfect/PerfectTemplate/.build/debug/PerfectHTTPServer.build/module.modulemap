@@ -1,4 +1,0 @@
-module PerfectHTTPServer {
-    header "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/PerfectHTTPServer-Swift.h"
-    requires objc
-}

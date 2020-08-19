@@ -10,7 +10,9 @@ RUN apt-get install -y openssl libssl-dev uuid-dev
 RUN echo "deb [trusted=yes] https://apt.secrethub.io stable main" > /etc/apt/sources.list.d/secrethub.sources.list && apt-get update
 RUN apt-get install -y secrethub-cli
 
-COPY /PerfectTemplate /PerfectTemplate
+RUN git clone https://github.com/PerfectlySoft/PerfectTemplate.git
+
+COPY main.swift /PerfectTemplate/Sources/PerfectTemplate/main.swift
 WORKDIR ./PerfectTemplate
 RUN swift build
 
