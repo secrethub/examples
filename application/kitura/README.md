@@ -1,3 +1,5 @@
+This Kitura example checks if the environment variables DEMO_USERNAME and DEMO_PASSWORD have been set. If that's the not case, you'll receive an error message at http://localhost:8080.
+
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
 1. [SecretHub](https://secrethub.io/docs/start/getting-started/#install) installed
