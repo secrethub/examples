@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/master.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/PerfectLib/Sources/PerfectLib/Bytes.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Bytes.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Bytes.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Bytes~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Bytes.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/PerfectLib/Sources/PerfectLib/Dir.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Dir.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Dir.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Dir~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Dir.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/PerfectLib/Sources/PerfectLib/File.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/File.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/File.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/File~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/File.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/PerfectLib/Sources/PerfectLib/JSONConvertible.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/JSONConvertible.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/JSONConvertible.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/JSONConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/JSONConvertible.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/PerfectLib/Sources/PerfectLib/Log.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Log.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Log.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Log~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Log.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/PerfectLib/Sources/PerfectLib/PerfectError.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/PerfectError.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/PerfectError.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/PerfectError~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/PerfectError.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/PerfectLib/Sources/PerfectLib/PerfectServer.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/PerfectServer.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/PerfectServer.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/PerfectServer~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/PerfectServer.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/PerfectLib/Sources/PerfectLib/SysProcess.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/SysProcess.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/SysProcess.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/SysProcess~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/SysProcess.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/PerfectLib/Sources/PerfectLib/Utilities.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Utilities.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Utilities.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Utilities~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/Utilities.swiftdeps"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "allExecutables" : [
+    "PerfectTemplate"
+  ],
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+    "PerfectTemplate"
+  ],
+  "swiftTargetMap" : {
+    "C.PerfectCrypto-debug.module" : "PerfectCrypto",
+    "C.PerfectHTTP-debug.module" : "PerfectHTTP",
+    "C.PerfectHTTPServer-debug.module" : "PerfectHTTPServer",
+    "C.PerfectLib-debug.module" : "PerfectLib",
+    "C.PerfectNet-debug.module" : "PerfectNet",
+    "C.PerfectTemplate-debug.module" : "PerfectTemplate",
+    "C.PerfectThread-debug.module" : "PerfectThread"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

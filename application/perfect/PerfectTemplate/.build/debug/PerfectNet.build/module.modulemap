@@ -1,0 +1,4 @@
+module PerfectNet {
+    header "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectNet.build/PerfectNet-Swift.h"
+    requires objc
+}

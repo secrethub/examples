@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "298933afeb53ccb6c9491cb415907f64"
+build_time: [1597842050, 663095000]
+inputs:
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP11/HTTP11Request.swift": [1597842032, 155218200]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP11/HTTP11Response.swift": [1597842032, 155398749]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HPACK.swift": [1597842032, 155711686]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2.swift": [1597842032, 155884366]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2Client.swift": [1597842032, 156089386]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2Frame.swift": [1597842032, 156206586]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2FrameReader.swift": [1597842032, 156325438]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2FrameWriter.swift": [1597842032, 156425829]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2PrefaceValidator.swift": [1597842032, 156577323]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2Request.swift": [1597842032, 156726402]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2Response.swift": [1597842032, 156918175]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2Session.swift": [1597842032, 157078382]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2SessionSettings.swift": [1597842032, 157229999]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTPContentCompression.swift": [1597842032, 157356434]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTPMultiplexer.swift": [1597842032, 157463335]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTPServer.swift": [1597842032, 157630503]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTPServerEx.swift": [1597842032, 157830716]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": [1597842032, 157988168]

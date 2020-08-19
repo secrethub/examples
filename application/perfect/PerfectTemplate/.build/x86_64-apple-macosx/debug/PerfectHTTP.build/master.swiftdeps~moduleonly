@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "c03a15322715b42692aa5ba42f67fb62"
+build_time: [1597842049, 448261000]
+inputs:
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTP/Sources/PerfectHTTP/HTTPFilter.swift": [1597842031, 706132642]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTP/Sources/PerfectHTTP/HTTPHeaders.swift": [1597842031, 706310832]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTP/Sources/PerfectHTTP/HTTPMethod.swift": [1597842031, 706436970]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTP/Sources/PerfectHTTP/HTTPRequest.swift": [1597842031, 706568653]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTP/Sources/PerfectHTTP/HTTPResponse.swift": [1597842031, 706772220]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTP/Sources/PerfectHTTP/MimeReader.swift": [1597842031, 706941926]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTP/Sources/PerfectHTTP/MimeType.swift": [1597842031, 707355264]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTP/Sources/PerfectHTTP/Routing.swift": [1597842031, 707530568]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTP/Sources/PerfectHTTP/StaticFileHandler.swift": [1597842031, 707787412]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTP/Sources/PerfectHTTP/TypedRoutes.swift": [1597842031, 707992917]

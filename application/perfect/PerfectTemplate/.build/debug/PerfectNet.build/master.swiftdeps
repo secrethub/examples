@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "78c2497de87c15f5ac3dff324432aca3"
+build_time: [1597842047, 888378000]
+inputs:
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Net/Sources/PerfectNet/Net.swift": [1597842030, 788713379]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Net/Sources/PerfectNet/NetAddress.swift": [1597842030, 788902881]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Net/Sources/PerfectNet/NetEvent.swift": [1597842030, 767911319]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Net/Sources/PerfectNet/NetNamedPipe.swift": [1597842030, 789145546]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Net/Sources/PerfectNet/NetTCP.swift": [1597842030, 789498043]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Net/Sources/PerfectNet/NetTCPSSL.swift": [1597842030, 789982825]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Net/Sources/PerfectNet/NetUDP.swift": [1597842030, 790228081]

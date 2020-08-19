@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectTemplate.build/master.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/Sources/PerfectTemplate/main.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectTemplate.build/main.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectTemplate.build/main.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectTemplate.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectTemplate.build/main.swiftdeps"
+  }
+}

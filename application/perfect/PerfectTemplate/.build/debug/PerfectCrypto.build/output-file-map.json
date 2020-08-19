@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/master.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/Algorithms.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/Algorithms.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/Algorithms.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/Algorithms~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/Algorithms.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/ByteIO.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/ByteIO.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/ByteIO.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/ByteIO~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/ByteIO.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/Extensions.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/Extensions.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/Extensions.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/Extensions.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/JWK.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/JWK.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/JWK.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/JWK~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/JWK.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/JWT.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/JWT.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/JWT.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/JWT~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/JWT.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/Keys.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/Keys.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/Keys.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/Keys~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/Keys.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/OpenSSLInternal.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/OpenSSLInternal.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/OpenSSLInternal.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/OpenSSLInternal~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/OpenSSLInternal.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/PerfectCrypto.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/PerfectCrypto.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/PerfectCrypto.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/PerfectCrypto~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/PerfectCrypto.swiftdeps"
+  }
+}

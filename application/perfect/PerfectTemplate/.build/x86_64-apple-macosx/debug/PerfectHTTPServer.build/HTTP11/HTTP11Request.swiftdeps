@@ -1,0 +1,1400 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "httpLF"
+- "httpCR"
+- "HTTP11Request"
+provides-nominal:
+- "17PerfectHTTPServer13HTTP11RequestC"
+- "17PerfectHTTPServer13HTTP11RequestC5StateO"
+provides-member:
+- ["17PerfectHTTPServer13HTTP11RequestC", ""]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", ""]
+provides-dynamic-lookup:
+- "$__lazy_storage_$_contentLength"
+- "$__lazy_storage_$_postParams"
+- "$__lazy_storage_$_queryParams"
+- "addHeader"
+- "connection"
+- "contentLength"
+- "contentType"
+- "deFormURLEncoded"
+- "didReadSomeBytes"
+- "documentRoot"
+- "enteringState"
+- "getSelf"
+- "header"
+- "headerStore"
+- "headers"
+- "lastHeaderName"
+- "leavingState"
+- "method"
+- "mimes"
+- "parseURI"
+- "parser"
+- "parserBody"
+- "parserHeaderField"
+- "parserHeaderValue"
+- "parserHeadersComplete"
+- "parserMessageBegin"
+- "parserMessageComplete"
+- "parserSettings"
+- "parserURL"
+- "path"
+- "pathComponents"
+- "postBodyBytes"
+- "postBodyString"
+- "postFileUploads"
+- "postParams"
+- "protocolVersion"
+- "putPostData"
+- "queryParams"
+- "queryString"
+- "readRequest"
+- "remoteAddress"
+- "scratchPad"
+- "serverAddress"
+- "serverName"
+- "setHeader"
+- "state"
+- "urlVariables"
+- "workingBuffer"
+- "workingBufferOffset"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- "*"
+- !private "+"
+- !private "+="
+- !private "..<"
+- "=="
+- !private ">"
+- "??"
+- "AnyIterator"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Character"
+- "Dictionary"
+- "ExtendedGraphemeClusterType"
+- "FloatLiteralType"
+- !private "HPE_CLOSED_CONNECTION"
+- !private "HPE_HEADER_OVERFLOW"
+- "HTTP11Request"
+- "HTTPMethod"
+- "HTTPRequest"
+- "HTTPRequestHeader"
+- "HTTPResponseStatus"
+- !private "HTTP_REQUEST"
+- "Int"
+- !private "Int32"
+- "Int8"
+- "IntegerLiteralType"
+- "MimeReader"
+- "NetTCP"
+- "String"
+- "StringLiteralType"
+- !private "TernaryPrecedence"
+- "UInt16"
+- "UInt8"
+- !private "UTF8"
+- "UTF8Encoding"
+- "UnicodeScalar"
+- "UnicodeScalarType"
+- !private "Unmanaged"
+- "UnsafeMutablePointer"
+- !private "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- !private "characterCR"
+- !private "characterCRLF"
+- !private "characterColon"
+- !private "characterHT"
+- !private "characterLF"
+- !private "characterSP"
+- "httpCR"
+- "httpLF"
+- !private "httpMaxHeadersSize"
+- !private "httpQuestion"
+- !private "httpReadSize"
+- !private "httpReadTimeout"
+- !private "httpSpace"
+- !private "http_method"
+- !private "http_method_str"
+- "http_parser"
+- !private "http_parser_execute"
+- !private "http_parser_init"
+- "http_parser_settings"
+- !private "netHandleQueue"
+- !private "||"
+depends-member:
+- ["s18AdditiveArithmeticP", "init"]
+- !private ["s11AnyIteratorV", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "count"]
+- ["Sa", "filter"]
+- ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "makeIterator"]
+- ["Sa", "map"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "stringByDecodingURL"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "stringByDecodingURL"]
+- !private ["SK", "append"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "count"]
+- !private ["SK", "filePathComponents"]
+- ["SK", "filter"]
+- ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "lowercased"]
+- !private ["SK", "makeIterator"]
+- ["SK", "map"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "split"]
+- !private ["SK", "starts"]
+- !private ["SK", "stringByDecodingURL"]
+- !private ["SK", "stringByEncodingURL"]
+- !private ["SK", "subscript"]
+- !private ["SK", "utf8"]
+- ["Sz", "init"]
+- ["11PerfectHTTP10MimeReaderC8BodySpecC", "fieldName"]
+- ["11PerfectHTTP10MimeReaderC8BodySpecC", "fieldValue"]
+- ["11PerfectHTTP10MimeReaderC8BodySpecC", "file"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "filePathComponents"]
+- ["s7CVarArgP", "filter"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "makeIterator"]
+- ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "split"]
+- !private ["s7CVarArgP", "starts"]
+- !private ["s7CVarArgP", "stringByDecodingURL"]
+- !private ["s7CVarArgP", "stringByEncodingURL"]
+- ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "utf8"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["s20CollectionDifferenceV6ChangeO", "stringByDecodingURL"]
+- !private ["SJ", "init"]
+- !private ["SN", "stringByDecodingURL"]
+- !private ["Sl", "append"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "count"]
+- !private ["Sl", "filePathComponents"]
+- ["Sl", "filter"]
+- ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "lowercased"]
+- !private ["Sl", "makeIterator"]
+- ["Sl", "map"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "split"]
+- !private ["Sl", "starts"]
+- !private ["Sl", "stringByDecodingURL"]
+- !private ["Sl", "stringByEncodingURL"]
+- ["Sl", "subscript"]
+- !private ["Sl", "utf8"]
+- !private ["s20CollectionDifferenceV", "stringByDecodingURL"]
+- !private ["SL", "append"]
+- !private ["SL", "assumingMemoryBound"]
+- ["SL", "contentLength"]
+- !private ["SL", "contentType"]
+- !private ["SL", "filePathComponents"]
+- ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "lowercased"]
+- !private ["SL", "pointee"]
+- !private ["SL", "split"]
+- !private ["SL", "starts"]
+- !private ["SL", "stringByDecodingURL"]
+- !private ["SL", "stringByEncodingURL"]
+- !private ["SL", "subscript"]
+- !private ["SL", "utf8"]
+- !private ["SL", "withMemoryRebound"]
+- !private ["s15ContiguousArrayV", "stringByDecodingURL"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- ["10Foundation15ContiguousBytesP", "filter"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "makeIterator"]
+- ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "removeAll"]
+- !private ["10Foundation15ContiguousBytesP", "stringByDecodingURL"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "filePathComponents"]
+- ["s28CustomDebugStringConvertibleP", "filter"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "makeIterator"]
+- ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "split"]
+- !private ["s28CustomDebugStringConvertibleP", "starts"]
+- !private ["s28CustomDebugStringConvertibleP", "stringByDecodingURL"]
+- !private ["s28CustomDebugStringConvertibleP", "stringByEncodingURL"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filePathComponents"]
+- ["s17CustomReflectableP", "filter"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "makeIterator"]
+- ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "next"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "split"]
+- !private ["s17CustomReflectableP", "starts"]
+- !private ["s17CustomReflectableP", "stringByDecodingURL"]
+- !private ["s17CustomReflectableP", "stringByEncodingURL"]
+- ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "badRequest"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "filePathComponents"]
+- ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "from"]
+- ["s23CustomStringConvertibleP", "get"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "makeIterator"]
+- ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "ok"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "requestEntityTooLarge"]
+- !private ["s23CustomStringConvertibleP", "requestTimeout"]
+- !private ["s23CustomStringConvertibleP", "split"]
+- !private ["s23CustomStringConvertibleP", "starts"]
+- !private ["s23CustomStringConvertibleP", "stringByDecodingURL"]
+- !private ["s23CustomStringConvertibleP", "stringByEncodingURL"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- ["10Foundation12DataProtocolP", "filter"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "makeIterator"]
+- ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "removeAll"]
+- !private ["10Foundation12DataProtocolP", "stringByDecodingURL"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "assumingMemoryBound"]
+- !private ["Se", "badRequest"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "count"]
+- !private ["Se", "filePathComponents"]
+- ["Se", "filter"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "lowercased"]
+- !private ["Se", "makeIterator"]
+- ["Se", "map"]
+- !private ["Se", "ok"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "requestEntityTooLarge"]
+- !private ["Se", "requestTimeout"]
+- !private ["Se", "split"]
+- !private ["Se", "starts"]
+- !private ["Se", "stringByDecodingURL"]
+- !private ["Se", "stringByEncodingURL"]
+- ["Se", "subscript"]
+- !private ["Se", "utf8"]
+- !private ["Se", "withMemoryRebound"]
+- ["SD", "init"]
+- !private ["SD", "makeIterator"]
+- !private ["SD", "stringByDecodingURL"]
+- ["SD", "subscript"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["s15EmptyCollectionV", "stringByDecodingURL"]
+- !private ["SE", "append"]
+- !private ["SE", "assumingMemoryBound"]
+- !private ["SE", "badRequest"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "count"]
+- !private ["SE", "filePathComponents"]
+- ["SE", "filter"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "lowercased"]
+- !private ["SE", "makeIterator"]
+- ["SE", "map"]
+- !private ["SE", "ok"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "requestEntityTooLarge"]
+- !private ["SE", "requestTimeout"]
+- !private ["SE", "split"]
+- !private ["SE", "starts"]
+- !private ["SE", "stringByDecodingURL"]
+- !private ["SE", "stringByEncodingURL"]
+- ["SE", "subscript"]
+- !private ["SE", "utf8"]
+- !private ["SE", "withMemoryRebound"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "assumingMemoryBound"]
+- !private ["SQ", "async"]
+- ["SQ", "body"]
+- !private ["SQ", "compactMap"]
+- ["SQ", "component"]
+- ["SQ", "contentLength"]
+- !private ["SQ", "contentType"]
+- !private ["SQ", "cookie"]
+- !private ["SQ", "count"]
+- ["SQ", "emptyInput"]
+- ["SQ", "error"]
+- !private ["SQ", "expect"]
+- !private ["SQ", "filePathComponents"]
+- ["SQ", "filter"]
+- !private ["SQ", "from"]
+- !private ["SQ", "fromStandard"]
+- ["SQ", "get"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "headerField"]
+- ["SQ", "headerValue"]
+- ["SQ", "headersComplete"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "localAddress"]
+- !private ["SQ", "lowercased"]
+- !private ["SQ", "makeIterator"]
+- ["SQ", "map"]
+- ["SQ", "messageBegin"]
+- ["SQ", "messageComplete"]
+- ["SQ", "none"]
+- !private ["SQ", "pointee"]
+- ["SQ", "query"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "readBytesFully"]
+- !private ["SQ", "readSomeBytes"]
+- !private ["SQ", "remoteAddress"]
+- !private ["SQ", "removeAll"]
+- ["SQ", "scalarValue"]
+- ["SQ", "slash"]
+- !private ["SQ", "split"]
+- !private ["SQ", "starts"]
+- !private ["SQ", "stringByDecodingURL"]
+- !private ["SQ", "stringByEncodingURL"]
+- ["SQ", "subscript"]
+- ["SQ", "url"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "withMemoryRebound"]
+- !private ["SQ", "writeFully"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "filter"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "makeIterator"]
+- ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "stringByDecodingURL"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "makeIterator"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "stringByDecodingURL"]
+- ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "filePathComponents"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "starts"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "stringByDecodingURL"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "stringByEncodingURL"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "assumingMemoryBound"]
+- !private ["s23ExpressibleByNilLiteralP", "stringByDecodingURL"]
+- !private ["s23ExpressibleByNilLiteralP", "withMemoryRebound"]
+- !private ["s32ExpressibleByStringInterpolationP", "append"]
+- !private ["s32ExpressibleByStringInterpolationP", "filePathComponents"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s32ExpressibleByStringInterpolationP", "split"]
+- !private ["s32ExpressibleByStringInterpolationP", "starts"]
+- !private ["s32ExpressibleByStringInterpolationP", "stringByDecodingURL"]
+- !private ["s32ExpressibleByStringInterpolationP", "stringByEncodingURL"]
+- !private ["s32ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s26ExpressibleByStringLiteralP", "append"]
+- !private ["s26ExpressibleByStringLiteralP", "filePathComponents"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "split"]
+- !private ["s26ExpressibleByStringLiteralP", "starts"]
+- !private ["s26ExpressibleByStringLiteralP", "stringByDecodingURL"]
+- !private ["s26ExpressibleByStringLiteralP", "stringByEncodingURL"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "append"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "filePathComponents"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "split"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "starts"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "stringByDecodingURL"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "stringByEncodingURL"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- ["s17FixedWidthIntegerP", "init"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "$__lazy_storage_$_contentLength"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "$__lazy_storage_$_postParams"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "$__lazy_storage_$_queryParams"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "AnyIterator"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "Array"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "Bool"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "Character"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "Dictionary"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "HPE_CLOSED_CONNECTION"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "HPE_HEADER_OVERFLOW"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "HTTP11Request"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "HTTPMethod"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "HTTPRequestHeader"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "HTTPResponseStatus"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "HTTP_REQUEST"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "Int"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "Int32"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "Int8"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "MimeReader"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "NetTCP"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "State"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "StatusCallback"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "String"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "UInt16"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "UInt8"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "UTF8"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "UTF8Encoding"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "UnicodeScalar"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "Unmanaged"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "UnsafeMutablePointer"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "UnsafeMutableRawPointer"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "UnsafePointer"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "addHeader"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "connection"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "contentLength"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "contentType"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "deFormURLEncoded"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "deinit"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "didReadSomeBytes"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "documentRoot"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "enteringState"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "getSelf"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "header"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "headerStore"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "headers"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "httpReadSize"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "httpReadTimeout"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "http_method"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "http_method_str"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "http_parser"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "http_parser_execute"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "http_parser_init"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "http_parser_settings"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "init"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "lastHeaderName"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "leavingState"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "method"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "mimes"]
+- !private ["17PerfectHTTPServer13HTTP11RequestC", "netHandleQueue"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "parseURI"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "parser"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "parserBody"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "parserHeaderField"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "parserHeaderValue"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "parserHeadersComplete"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "parserMessageBegin"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "parserMessageComplete"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "parserSettings"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "parserURL"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "path"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "pathComponents"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "postBodyBytes"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "postBodyString"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "postFileUploads"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "postParams"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "protocolVersion"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "putPostData"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "queryParams"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "queryString"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "readRequest"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "remoteAddress"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "scratchPad"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "serverAddress"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "serverName"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "setHeader"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "state"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "urlVariables"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "workingBuffer"]
+- ["17PerfectHTTPServer13HTTP11RequestC", "workingBufferOffset"]
+- !private ["11PerfectHTTP10HTTPMethodO", "from"]
+- ["11PerfectHTTP10HTTPMethodO", "get"]
+- !private ["11PerfectHTTP11HTTPRequestP", "AnyIterator"]
+- !private ["11PerfectHTTP11HTTPRequestP", "Array"]
+- !private ["11PerfectHTTP11HTTPRequestP", "Character"]
+- ["11PerfectHTTP11HTTPRequestP", "Dictionary"]
+- !private ["11PerfectHTTP11HTTPRequestP", "HPE_CLOSED_CONNECTION"]
+- !private ["11PerfectHTTP11HTTPRequestP", "HPE_HEADER_OVERFLOW"]
+- !private ["11PerfectHTTP11HTTPRequestP", "HTTP11Request"]
+- !private ["11PerfectHTTP11HTTPRequestP", "HTTPMethod"]
+- !private ["11PerfectHTTP11HTTPRequestP", "HTTPRequestHeader"]
+- !private ["11PerfectHTTP11HTTPRequestP", "HTTP_REQUEST"]
+- ["11PerfectHTTP11HTTPRequestP", "Int"]
+- !private ["11PerfectHTTP11HTTPRequestP", "Int32"]
+- !private ["11PerfectHTTP11HTTPRequestP", "Int8"]
+- !private ["11PerfectHTTP11HTTPRequestP", "MimeReader"]
+- ["11PerfectHTTP11HTTPRequestP", "State"]
+- ["11PerfectHTTP11HTTPRequestP", "String"]
+- ["11PerfectHTTP11HTTPRequestP", "UInt8"]
+- !private ["11PerfectHTTP11HTTPRequestP", "UTF8"]
+- ["11PerfectHTTP11HTTPRequestP", "UTF8Encoding"]
+- !private ["11PerfectHTTP11HTTPRequestP", "UnicodeScalar"]
+- !private ["11PerfectHTTP11HTTPRequestP", "Unmanaged"]
+- !private ["11PerfectHTTP11HTTPRequestP", "UnsafeMutableRawPointer"]
+- !private ["11PerfectHTTP11HTTPRequestP", "UnsafePointer"]
+- ["11PerfectHTTP11HTTPRequestP", ""]
+- ["11PerfectHTTP11HTTPRequestP", "addHeader"]
+- ["11PerfectHTTP11HTTPRequestP", "connection"]
+- !private ["11PerfectHTTP11HTTPRequestP", "contentType"]
+- ["11PerfectHTTP11HTTPRequestP", "deFormURLEncoded"]
+- !private ["11PerfectHTTP11HTTPRequestP", "didReadSomeBytes"]
+- ["11PerfectHTTP11HTTPRequestP", "documentRoot"]
+- !private ["11PerfectHTTP11HTTPRequestP", "enteringState"]
+- !private ["11PerfectHTTP11HTTPRequestP", "getSelf"]
+- ["11PerfectHTTP11HTTPRequestP", "header"]
+- ["11PerfectHTTP11HTTPRequestP", "headerStore"]
+- ["11PerfectHTTP11HTTPRequestP", "headers"]
+- !private ["11PerfectHTTP11HTTPRequestP", "httpReadSize"]
+- !private ["11PerfectHTTP11HTTPRequestP", "httpReadTimeout"]
+- !private ["11PerfectHTTP11HTTPRequestP", "http_method"]
+- !private ["11PerfectHTTP11HTTPRequestP", "http_method_str"]
+- ["11PerfectHTTP11HTTPRequestP", "http_parser"]
+- !private ["11PerfectHTTP11HTTPRequestP", "http_parser_execute"]
+- !private ["11PerfectHTTP11HTTPRequestP", "http_parser_init"]
+- ["11PerfectHTTP11HTTPRequestP", "http_parser_settings"]
+- !private ["11PerfectHTTP11HTTPRequestP", "lastHeaderName"]
+- !private ["11PerfectHTTP11HTTPRequestP", "leavingState"]
+- ["11PerfectHTTP11HTTPRequestP", "method"]
+- ["11PerfectHTTP11HTTPRequestP", "mimes"]
+- !private ["11PerfectHTTP11HTTPRequestP", "netHandleQueue"]
+- !private ["11PerfectHTTP11HTTPRequestP", "parseURI"]
+- !private ["11PerfectHTTP11HTTPRequestP", "parser"]
+- !private ["11PerfectHTTP11HTTPRequestP", "parserBody"]
+- !private ["11PerfectHTTP11HTTPRequestP", "parserHeaderField"]
+- !private ["11PerfectHTTP11HTTPRequestP", "parserHeaderValue"]
+- !private ["11PerfectHTTP11HTTPRequestP", "parserHeadersComplete"]
+- !private ["11PerfectHTTP11HTTPRequestP", "parserMessageBegin"]
+- !private ["11PerfectHTTP11HTTPRequestP", "parserMessageComplete"]
+- !private ["11PerfectHTTP11HTTPRequestP", "parserSettings"]
+- !private ["11PerfectHTTP11HTTPRequestP", "parserURL"]
+- ["11PerfectHTTP11HTTPRequestP", "path"]
+- ["11PerfectHTTP11HTTPRequestP", "pathComponents"]
+- ["11PerfectHTTP11HTTPRequestP", "postBodyBytes"]
+- ["11PerfectHTTP11HTTPRequestP", "postBodyString"]
+- ["11PerfectHTTP11HTTPRequestP", "postFileUploads"]
+- ["11PerfectHTTP11HTTPRequestP", "postParams"]
+- ["11PerfectHTTP11HTTPRequestP", "protocolVersion"]
+- ["11PerfectHTTP11HTTPRequestP", "queryParams"]
+- ["11PerfectHTTP11HTTPRequestP", "queryString"]
+- !private ["11PerfectHTTP11HTTPRequestP", "readRequest"]
+- ["11PerfectHTTP11HTTPRequestP", "remoteAddress"]
+- ["11PerfectHTTP11HTTPRequestP", "scratchPad"]
+- ["11PerfectHTTP11HTTPRequestP", "serverAddress"]
+- ["11PerfectHTTP11HTTPRequestP", "serverName"]
+- ["11PerfectHTTP11HTTPRequestP", "setHeader"]
+- !private ["11PerfectHTTP11HTTPRequestP", "state"]
+- ["11PerfectHTTP11HTTPRequestP", "urlVariables"]
+- !private ["11PerfectHTTP11HTTPRequestP", "workingBuffer"]
+- ["11PerfectHTTP17HTTPRequestHeaderO", "Name"]
+- !private ["11PerfectHTTP18HTTPResponseStatusO", "badRequest"]
+- !private ["11PerfectHTTP18HTTPResponseStatusO", "ok"]
+- !private ["11PerfectHTTP18HTTPResponseStatusO", "requestEntityTooLarge"]
+- !private ["11PerfectHTTP18HTTPResponseStatusO", "requestTimeout"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- !private ["SH", "assumingMemoryBound"]
+- !private ["SH", "async"]
+- ["SH", "body"]
+- !private ["SH", "compactMap"]
+- ["SH", "component"]
+- ["SH", "contentLength"]
+- !private ["SH", "contentType"]
+- !private ["SH", "cookie"]
+- !private ["SH", "count"]
+- !private ["SH", "expect"]
+- !private ["SH", "filePathComponents"]
+- ["SH", "filter"]
+- !private ["SH", "from"]
+- !private ["SH", "fromStandard"]
+- ["SH", "get"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "headerField"]
+- ["SH", "headerValue"]
+- ["SH", "headersComplete"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "lowercased"]
+- !private ["SH", "makeIterator"]
+- ["SH", "map"]
+- ["SH", "messageBegin"]
+- ["SH", "messageComplete"]
+- ["SH", "none"]
+- !private ["SH", "pointee"]
+- ["SH", "query"]
+- !private ["SH", "removeAll"]
+- ["SH", "slash"]
+- !private ["SH", "split"]
+- !private ["SH", "starts"]
+- !private ["SH", "stringByDecodingURL"]
+- !private ["SH", "stringByEncodingURL"]
+- ["SH", "subscript"]
+- ["SH", "url"]
+- !private ["SH", "utf8"]
+- !private ["SH", "withMemoryRebound"]
+- !private ["s6HasherV", "combine"]
+- ["SD5IndexV", "contentLength"]
+- !private ["SD5IndexV", "contentType"]
+- !private ["SD5IndexV", "stringByDecodingURL"]
+- !private ["SNsSxRzSZ6StrideRpzrlE5IndexO", "stringByDecodingURL"]
+- !private ["Sh5IndexV", "stringByDecodingURL"]
+- !private ["s11_UIntBufferV5IndexV", "stringByDecodingURL"]
+- !private ["s15FlattenSequenceVsSlRzSl7ElementRpzrlE5IndexV", "stringByDecodingURL"]
+- !private ["s18ReversedCollectionV5IndexV", "stringByDecodingURL"]
+- !private ["s20CollectionDifferenceV5IndexV", "stringByDecodingURL"]
+- !private ["s23LazyPrefixWhileSequenceVsSlRzrlE5IndexV", "stringByDecodingURL"]
+- ["Si", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["SD8IteratorV", "next"]
+- !private ["St", "init"]
+- !private ["St", "next"]
+- !private ["10PerfectLib15JSONConvertibleP", "append"]
+- !private ["10PerfectLib15JSONConvertibleP", "assumingMemoryBound"]
+- !private ["10PerfectLib15JSONConvertibleP", "compactMap"]
+- !private ["10PerfectLib15JSONConvertibleP", "count"]
+- !private ["10PerfectLib15JSONConvertibleP", "filePathComponents"]
+- ["10PerfectLib15JSONConvertibleP", "filter"]
+- ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "isEmpty"]
+- !private ["10PerfectLib15JSONConvertibleP", "lowercased"]
+- !private ["10PerfectLib15JSONConvertibleP", "makeIterator"]
+- ["10PerfectLib15JSONConvertibleP", "map"]
+- !private ["10PerfectLib15JSONConvertibleP", "removeAll"]
+- !private ["10PerfectLib15JSONConvertibleP", "split"]
+- !private ["10PerfectLib15JSONConvertibleP", "starts"]
+- !private ["10PerfectLib15JSONConvertibleP", "stringByDecodingURL"]
+- !private ["10PerfectLib15JSONConvertibleP", "stringByEncodingURL"]
+- ["10PerfectLib15JSONConvertibleP", "subscript"]
+- !private ["10PerfectLib15JSONConvertibleP", "utf8"]
+- !private ["10PerfectLib15JSONConvertibleP", "withMemoryRebound"]
+- !private ["SD4KeysV", "stringByDecodingURL"]
+- !private ["s25LosslessStringConvertibleP", "append"]
+- !private ["s25LosslessStringConvertibleP", "filePathComponents"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s25LosslessStringConvertibleP", "split"]
+- !private ["s25LosslessStringConvertibleP", "starts"]
+- !private ["s25LosslessStringConvertibleP", "stringByDecodingURL"]
+- !private ["s25LosslessStringConvertibleP", "stringByEncodingURL"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s20ManagedBufferPointerV", "stringByDecodingURL"]
+- ["11PerfectHTTP10MimeReaderC", "BodySpec"]
+- !private ["11PerfectHTTP10MimeReaderC", "addToBuffer"]
+- ["11PerfectHTTP10MimeReaderC", "bodySpecs"]
+- !private ["11PerfectHTTP10MimeReaderC", "init"]
+- !private ["s10MirrorPathP", "append"]
+- !private ["s10MirrorPathP", "filePathComponents"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["s10MirrorPathP", "split"]
+- !private ["s10MirrorPathP", "starts"]
+- !private ["s10MirrorPathP", "stringByDecodingURL"]
+- !private ["s10MirrorPathP", "stringByEncodingURL"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["SM", "append"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "count"]
+- ["SM", "filter"]
+- ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "makeIterator"]
+- ["SM", "map"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "stringByDecodingURL"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- ["10Foundation19MutableDataProtocolP", "filter"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "makeIterator"]
+- ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "removeAll"]
+- !private ["10Foundation19MutableDataProtocolP", "stringByDecodingURL"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "append"]
+- !private ["So8NSCodingP", "filePathComponents"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So8NSCodingP", "split"]
+- !private ["So8NSCodingP", "starts"]
+- !private ["So8NSCodingP", "stringByDecodingURL"]
+- !private ["So8NSCodingP", "stringByEncodingURL"]
+- !private ["So8NSCodingP", "utf8"]
+- !private ["So9NSCopyingP", "append"]
+- !private ["So9NSCopyingP", "filePathComponents"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So9NSCopyingP", "split"]
+- !private ["So9NSCopyingP", "starts"]
+- !private ["So9NSCopyingP", "stringByDecodingURL"]
+- !private ["So9NSCopyingP", "stringByEncodingURL"]
+- !private ["So9NSCopyingP", "utf8"]
+- !private ["So21NSItemProviderReadingP", "append"]
+- !private ["So21NSItemProviderReadingP", "filePathComponents"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "split"]
+- !private ["So21NSItemProviderReadingP", "starts"]
+- !private ["So21NSItemProviderReadingP", "stringByDecodingURL"]
+- !private ["So21NSItemProviderReadingP", "stringByEncodingURL"]
+- !private ["So21NSItemProviderReadingP", "utf8"]
+- !private ["So21NSItemProviderWritingP", "append"]
+- !private ["So21NSItemProviderWritingP", "filePathComponents"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "split"]
+- !private ["So21NSItemProviderWritingP", "starts"]
+- !private ["So21NSItemProviderWritingP", "stringByDecodingURL"]
+- !private ["So21NSItemProviderWritingP", "stringByEncodingURL"]
+- !private ["So21NSItemProviderWritingP", "utf8"]
+- !private ["So16NSMutableCopyingP", "append"]
+- !private ["So16NSMutableCopyingP", "filePathComponents"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "split"]
+- !private ["So16NSMutableCopyingP", "starts"]
+- !private ["So16NSMutableCopyingP", "stringByDecodingURL"]
+- !private ["So16NSMutableCopyingP", "stringByEncodingURL"]
+- !private ["So16NSMutableCopyingP", "utf8"]
+- !private ["So8NSObjectC", "append"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "filePathComponents"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectC", "split"]
+- !private ["So8NSObjectC", "starts"]
+- !private ["So8NSObjectC", "stringByDecodingURL"]
+- !private ["So8NSObjectC", "stringByEncodingURL"]
+- !private ["So8NSObjectC", "utf8"]
+- !private ["So8NSObjectP", "append"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "filePathComponents"]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So8NSObjectP", "split"]
+- !private ["So8NSObjectP", "starts"]
+- !private ["So8NSObjectP", "stringByDecodingURL"]
+- !private ["So8NSObjectP", "stringByEncodingURL"]
+- !private ["So8NSObjectP", "utf8"]
+- !private ["So14NSSecureCodingP", "append"]
+- !private ["So14NSSecureCodingP", "filePathComponents"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So14NSSecureCodingP", "split"]
+- !private ["So14NSSecureCodingP", "starts"]
+- !private ["So14NSSecureCodingP", "stringByDecodingURL"]
+- !private ["So14NSSecureCodingP", "stringByEncodingURL"]
+- !private ["So14NSSecureCodingP", "utf8"]
+- !private ["So8NSStringC", "append"]
+- !private ["So8NSStringC", "filePathComponents"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["So8NSStringC", "split"]
+- !private ["So8NSStringC", "starts"]
+- !private ["So8NSStringC", "stringByDecodingURL"]
+- !private ["So8NSStringC", "stringByEncodingURL"]
+- !private ["So8NSStringC", "utf8"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "contentLength"]
+- !private ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "contentType"]
+- !private ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "cookie"]
+- !private ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "expect"]
+- !private ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "fromStandard"]
+- !private ["10PerfectNet0B0C", "localAddress"]
+- !private ["10PerfectNet0B0C", "readBytesFully"]
+- !private ["10PerfectNet0B0C", "readSomeBytes"]
+- !private ["10PerfectNet0B0C", "remoteAddress"]
+- !private ["10PerfectNet0B0C", "writeFully"]
+- !private ["10PerfectNet0B7AddressV", "host"]
+- !private ["10PerfectNet0B7AddressV", "port"]
+- !private ["10PerfectNet0B3TCPC", "localAddress"]
+- !private ["10PerfectNet0B3TCPC", "readBytesFully"]
+- !private ["10PerfectNet0B3TCPC", "readSomeBytes"]
+- !private ["10PerfectNet0B3TCPC", "remoteAddress"]
+- !private ["10PerfectNet0B3TCPC", "writeFully"]
+- ["Sj", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["Sq", "assumingMemoryBound"]
+- !private ["Sq", "stringByDecodingURL"]
+- !private ["Sq", "withMemoryRebound"]
+- !private ["Sk", "append"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "count"]
+- ["Sk", "filter"]
+- ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "makeIterator"]
+- ["Sk", "map"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "stringByDecodingURL"]
+- !private ["Sk", "subscript"]
+- !private ["Sn", "stringByDecodingURL"]
+- !private ["SX", "stringByDecodingURL"]
+- !private ["Sm", "append"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "count"]
+- !private ["Sm", "filePathComponents"]
+- ["Sm", "filter"]
+- ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "lowercased"]
+- !private ["Sm", "makeIterator"]
+- ["Sm", "map"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "split"]
+- !private ["Sm", "starts"]
+- !private ["Sm", "stringByDecodingURL"]
+- !private ["Sm", "stringByEncodingURL"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "utf8"]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
+- !private ["s6ResultO", "stringByDecodingURL"]
+- ["s10SIMDScalarP", "init"]
+- ["s7UnicodeO6ScalarV", "init"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["ST", "append"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "count"]
+- !private ["ST", "filePathComponents"]
+- ["ST", "filter"]
+- ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "lowercased"]
+- !private ["ST", "makeIterator"]
+- ["ST", "map"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "split"]
+- !private ["ST", "starts"]
+- !private ["ST", "stringByDecodingURL"]
+- !private ["ST", "stringByEncodingURL"]
+- ["ST", "subscript"]
+- !private ["ST", "utf8"]
+- !private ["Sh", "stringByDecodingURL"]
+- !private ["s10SetAlgebraP", "stringByDecodingURL"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", "init"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "=="]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "__derived_enum_equals"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "_rawHashValue"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "body"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "deinit"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "hash"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "hashValue"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "headerField"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "headerValue"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "headersComplete"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "messageBegin"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "messageComplete"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "none"]
+- ["17PerfectHTTPServer13HTTP11RequestC5StateO", "url"]
+- !private ["Sx", "assumingMemoryBound"]
+- ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "subscript"]
+- !private ["Sx", "withMemoryRebound"]
+- !private ["SS", "append"]
+- !private ["SS", "filePathComponents"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "lowercased"]
+- !private ["SS", "split"]
+- !private ["SS", "starts"]
+- !private ["SS", "stringByDecodingURL"]
+- !private ["SS", "stringByEncodingURL"]
+- !private ["SS", "utf8"]
+- !private ["Sy", "append"]
+- !private ["Sy", "filePathComponents"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "lowercased"]
+- !private ["Sy", "split"]
+- !private ["Sy", "starts"]
+- !private ["Sy", "stringByDecodingURL"]
+- !private ["Sy", "stringByEncodingURL"]
+- !private ["Sy", "utf8"]
+- !private ["s16TextOutputStreamP", "append"]
+- !private ["s16TextOutputStreamP", "filePathComponents"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s16TextOutputStreamP", "split"]
+- !private ["s16TextOutputStreamP", "starts"]
+- !private ["s16TextOutputStreamP", "stringByDecodingURL"]
+- !private ["s16TextOutputStreamP", "stringByEncodingURL"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s20TextOutputStreamableP", "append"]
+- !private ["s20TextOutputStreamableP", "filePathComponents"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "split"]
+- !private ["s20TextOutputStreamableP", "starts"]
+- !private ["s20TextOutputStreamableP", "stringByDecodingURL"]
+- !private ["s20TextOutputStreamableP", "stringByEncodingURL"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- !private ["s7UnicodeO4UTF8O", "decode"]
+- !private ["s7UnicodeO4UTF8O", "init"]
+- ["10PerfectLib12UTF8EncodingV", "encode"]
+- !private ["s12UnicodeCodecP", "decode"]
+- !private ["s12UnicodeCodecP", "init"]
+- ["s21UnicodeDecodingResultO", "emptyInput"]
+- ["s21UnicodeDecodingResultO", "error"]
+- ["s21UnicodeDecodingResultO", "scalarValue"]
+- !private ["s9UnmanagedV", "fromOpaque"]
+- !private ["s9UnmanagedV", "passUnretained"]
+- !private ["s9UnmanagedV", "takeUnretainedValue"]
+- !private ["s9UnmanagedV", "toOpaque"]
+- !private ["Sp", "pointee"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["Sv", "init"]
+- !private ["SP", "init"]
+- !private ["SP", "pointee"]
+- !private ["SP", "subscript"]
+- !private ["SP", "withMemoryRebound"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "filter"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "makeIterator"]
+- ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s14_ArrayProtocolP", "stringByDecodingURL"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "append"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "filePathComponents"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "split"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "starts"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "stringByDecodingURL"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "stringByEncodingURL"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "filter"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "makeIterator"]
+- ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "stringByDecodingURL"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "filePathComponents"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "starts"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "stringByDecodingURL"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "stringByEncodingURL"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "append"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "filePathComponents"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "split"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "starts"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "stringByDecodingURL"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "stringByEncodingURL"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "append"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "filePathComponents"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "split"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "starts"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "stringByDecodingURL"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "stringByEncodingURL"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "filePathComponents"]
+- ["s19_HasContiguousBytesP", "filter"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "makeIterator"]
+- ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "removeAll"]
+- !private ["s19_HasContiguousBytesP", "split"]
+- !private ["s19_HasContiguousBytesP", "starts"]
+- !private ["s19_HasContiguousBytesP", "stringByDecodingURL"]
+- !private ["s19_HasContiguousBytesP", "stringByEncodingURL"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filePathComponents"]
+- ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "makeIterator"]
+- ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "split"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "starts"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "stringByDecodingURL"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "stringByEncodingURL"]
+- ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "filePathComponents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "split"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "starts"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stringByDecodingURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stringByEncodingURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "append"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "filePathComponents"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowercased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "split"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "starts"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stringByDecodingURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stringByEncodingURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "assumingMemoryBound"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filePathComponents"]
+- ["s21_ObjectiveCBridgeableP", "filter"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "makeIterator"]
+- ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "split"]
+- !private ["s21_ObjectiveCBridgeableP", "starts"]
+- !private ["s21_ObjectiveCBridgeableP", "stringByDecodingURL"]
+- !private ["s21_ObjectiveCBridgeableP", "stringByEncodingURL"]
+- ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", "withMemoryRebound"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+- !private ["s16_UnicodeEncodingP", "decode"]
+- !private ["s16_UnicodeEncodingP", "init"]
+- !private ["So10http_errnoV", "rawValue"]
+- !private ["So11http_methodV", "init"]
+- !private ["So11http_parserV", "data"]
+- !private ["So11http_parserV", "http_errno"]
+- !private ["So11http_parserV", "http_major"]
+- !private ["So11http_parserV", "http_minor"]
+- ["So11http_parserV", "init"]
+- !private ["So11http_parserV", "method"]
+- ["So20http_parser_settingsV", "init"]
+- !private ["So20http_parser_settingsV", "on_body"]
+- !private ["So20http_parser_settingsV", "on_header_field"]
+- !private ["So20http_parser_settingsV", "on_header_value"]
+- !private ["So20http_parser_settingsV", "on_headers_complete"]
+- !private ["So20http_parser_settingsV", "on_message_begin"]
+- !private ["So20http_parser_settingsV", "on_message_complete"]
+- !private ["So20http_parser_settingsV", "on_url"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- !private "s11AnyIteratorV"
+- "Sa"
+- !private "s10ArraySliceV"
+- "SK"
+- "Sz"
+- "11PerfectHTTP10MimeReaderC8BodySpecC"
+- "s7CVarArgP"
+- !private "s20CollectionDifferenceV6ChangeO"
+- !private "SJ"
+- !private "SN"
+- "Sl"
+- !private "s20CollectionDifferenceV"
+- "SL"
+- !private "s15ContiguousArrayV"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SD"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "s15EmptyCollectionV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "17PerfectHTTPServer13HTTP11RequestC"
+- "11PerfectHTTP10HTTPMethodO"
+- "11PerfectHTTP11HTTPRequestP"
+- "11PerfectHTTP17HTTPRequestHeaderO"
+- !private "11PerfectHTTP18HTTPResponseStatusO"
+- "SH"
+- !private "s6HasherV"
+- "SD5IndexV"
+- !private "SNsSxRzSZ6StrideRpzrlE5IndexO"
+- !private "Sh5IndexV"
+- !private "s11_UIntBufferV5IndexV"
+- !private "s15FlattenSequenceVsSlRzSl7ElementRpzrlE5IndexV"
+- !private "s18ReversedCollectionV5IndexV"
+- !private "s20CollectionDifferenceV5IndexV"
+- !private "s23LazyPrefixWhileSequenceVsSlRzrlE5IndexV"
+- "Si"
+- !private "s5Int32V"
+- !private "SD8IteratorV"
+- !private "St"
+- "10PerfectLib15JSONConvertibleP"
+- !private "SD4KeysV"
+- "s25LosslessStringConvertibleP"
+- !private "s20ManagedBufferPointerV"
+- "11PerfectHTTP10MimeReaderC"
+- "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "11PerfectHTTP17HTTPRequestHeaderO4NameO"
+- !private "10PerfectNet0B0C"
+- !private "10PerfectNet0B7AddressV"
+- !private "10PerfectNet0B3TCPC"
+- "Sj"
+- !private "So9OS_objectC"
+- !private "Sq"
+- "Sk"
+- !private "Sn"
+- !private "SX"
+- "Sm"
+- !private "SY"
+- !private "s6ResultO"
+- "s10SIMDScalarP"
+- "s7UnicodeO6ScalarV"
+- !private "7Combine9SchedulerP"
+- "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- "SZ"
+- "s13SignedNumericP"
+- "17PerfectHTTPServer13HTTP11RequestC5StateO"
+- "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s7UnicodeO4UTF8O"
+- "10PerfectLib12UTF8EncodingV"
+- !private "s12UnicodeCodecP"
+- "s21UnicodeDecodingResultO"
+- !private "s9UnmanagedV"
+- !private "Sp"
+- !private "Sv"
+- !private "SP"
+- "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s16_UnicodeEncodingP"
+- !private "So10http_errnoV"
+- !private "So11http_methodV"
+- "So11http_parserV"
+- "So20http_parser_settingsV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTP.swiftmodule"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.swiftmodule"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectThread.swiftmodule"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/os.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectNet.swiftmodule"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../asn1.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../tls1.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../dtls1.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../ssl2.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../pem2.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../e_os2.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../ssl23.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../ssl3.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../x509v3.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../md5.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../pkcs7.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../x509.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../sha.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../dsa.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../ecdsa.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../rsa.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/../zlib.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/czlib.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../obj_mac.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../hmac.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../ec.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../rand.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../pqueue.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../conf.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../opensslconf.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/../zconf.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../dh.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../ecdh.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../lhash.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../stack.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../safestack.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/../zutil.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../ssl.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../kssl.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/openssl.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../pem.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../bn.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../bio.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../crypto.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../comp.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../srtp.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../evp.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../ossl_typ.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../buffer.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include/http_parser.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../err.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/../inftrees.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../symhacks.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../cms.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../objects.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../opensslv.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/../x509_vfy.h"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTP.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectThread.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectNet.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8ee2309abeedcedc7504bcc6bdc2375c"

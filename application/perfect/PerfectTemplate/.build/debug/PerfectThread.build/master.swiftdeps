@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "4623ee1692b609629291d01dbdda77dd"
+build_time: [1597842036, 537240000]
+inputs:
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Thread/Sources/PerfectThread/Promise.swift": [1597842032, 380853323]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Thread/Sources/PerfectThread/ThreadQueue.swift": [1597842032, 381028786]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Thread/Sources/PerfectThread/Threading.swift": [1597842032, 381182291]

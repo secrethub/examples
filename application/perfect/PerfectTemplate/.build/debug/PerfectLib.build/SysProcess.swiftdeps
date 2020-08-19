@@ -1,0 +1,364 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SysProcess"
+provides-nominal:
+- "10PerfectLib10SysProcessC"
+provides-member:
+- ["10PerfectLib10SysProcessC", ""]
+provides-dynamic-lookup:
+- "close"
+- "detach"
+- "gid"
+- "isOpen"
+- "kill"
+- "killGroup"
+- "pid"
+- "stderr"
+- "stdin"
+- "stdout"
+- "wait"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&"
+- !private "&&"
+- !private "+"
+- !private "..<"
+- !private "=="
+- !private ">>"
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CChar"
+- "CastingPrecedence"
+- !private "Darwin"
+- !private "EINTR"
+- "File"
+- "FloatLiteralType"
+- !private "Int16"
+- "Int32"
+- "IntegerLiteralType"
+- !private "OpaquePointer"
+- !private "POSIX_SPAWN_SETPGROUP"
+- !private "SIGTERM"
+- !private "STDERR_FILENO"
+- !private "STDIN_FILENO"
+- !private "STDOUT_FILENO"
+- "String"
+- !private "StringLiteralType"
+- "SysProcess"
+- "TernaryPrecedence"
+- !private "ThrowSystemError"
+- !private "UnicodeScalarType"
+- !private "UnsafeMutablePointer"
+- !private "UnsafeMutableRawPointer"
+- !private "WNOHANG"
+- !private "WUNTRACED"
+- !private "errno"
+- !private "free"
+- "pid_t"
+- !private "pipe"
+- !private "posix_spawn_file_actions_addclose"
+- !private "posix_spawn_file_actions_adddup2"
+- !private "posix_spawn_file_actions_destroy"
+- !private "posix_spawn_file_actions_init"
+- !private "posix_spawn_file_actions_t"
+- !private "posix_spawnattr_destroy"
+- !private "posix_spawnattr_init"
+- !private "posix_spawnattr_setflags"
+- !private "posix_spawnattr_t"
+- !private "posix_spawnp"
+- !private "strdup"
+- !private "waitpid"
+- !private "|"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "0"]
+- !private ["s10ArraySliceV", "1"]
+- !private ["SK", "0"]
+- !private ["SK", "1"]
+- !private ["SK", "count"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "deallocate"]
+- !private ["s7CVarArgP", "deinitialize"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "0"]
+- !private ["Sl", "1"]
+- !private ["Sl", "count"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "allocate"]
+- !private ["SL", "assumingMemoryBound"]
+- !private ["SL", "deallocate"]
+- !private ["SL", "deinitialize"]
+- !private ["SL", "init"]
+- !private ["SL", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "0"]
+- !private ["10Foundation15ContiguousBytesP", "1"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "0"]
+- !private ["s28CustomDebugStringConvertibleP", "1"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "deinitialize"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "0"]
+- !private ["s17CustomReflectableP", "1"]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- !private ["s17CustomReflectableP", "deinitialize"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "0"]
+- !private ["s23CustomStringConvertibleP", "1"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "0"]
+- !private ["10Foundation12DataProtocolP", "1"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "assumingMemoryBound"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SE", "assumingMemoryBound"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "0"]
+- !private ["SQ", "1"]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "assumingMemoryBound"]
+- !private ["SQ", "count"]
+- !private ["SQ", "deallocate"]
+- !private ["SQ", "deinitialize"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "0"]
+- !private ["s25ExpressibleByArrayLiteralP", "1"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "assumingMemoryBound"]
+- !private ["10PerfectLib4FileC", "close"]
+- !private ["10PerfectLib4FileC", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "0"]
+- !private ["SH", "1"]
+- !private ["SH", "allocate"]
+- !private ["SH", "assumingMemoryBound"]
+- !private ["SH", "count"]
+- !private ["SH", "deallocate"]
+- !private ["SH", "deinitialize"]
+- !private ["SH", "init"]
+- !private ["SH", "subscript"]
+- !private ["s5Int16V", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "assumingMemoryBound"]
+- !private ["10PerfectLib15JSONConvertibleP", "count"]
+- !private ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", "0"]
+- !private ["SM", "1"]
+- !private ["SM", "count"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sj", "init"]
+- !private ["Sq", "assumingMemoryBound"]
+- !private ["Sk", "0"]
+- !private ["Sk", "1"]
+- !private ["Sk", "count"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "0"]
+- !private ["Sm", "1"]
+- !private ["Sm", "count"]
+- !private ["Sm", "subscript"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "0"]
+- !private ["ST", "1"]
+- !private ["ST", "count"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "assumingMemoryBound"]
+- !private ["Sx", "deallocate"]
+- !private ["Sx", "deinitialize"]
+- !private ["Sx", "init"]
+- !private ["Sx", "subscript"]
+- ["10PerfectLib10SysProcessC", "Bool"]
+- !private ["10PerfectLib10SysProcessC", "CChar"]
+- !private ["10PerfectLib10SysProcessC", "Darwin"]
+- !private ["10PerfectLib10SysProcessC", "EINTR"]
+- ["10PerfectLib10SysProcessC", "File"]
+- !private ["10PerfectLib10SysProcessC", "Int16"]
+- ["10PerfectLib10SysProcessC", "Int32"]
+- !private ["10PerfectLib10SysProcessC", "OpaquePointer"]
+- !private ["10PerfectLib10SysProcessC", "POSIX_SPAWN_SETPGROUP"]
+- !private ["10PerfectLib10SysProcessC", "SIGTERM"]
+- !private ["10PerfectLib10SysProcessC", "STDERR_FILENO"]
+- !private ["10PerfectLib10SysProcessC", "STDIN_FILENO"]
+- !private ["10PerfectLib10SysProcessC", "STDOUT_FILENO"]
+- ["10PerfectLib10SysProcessC", "String"]
+- !private ["10PerfectLib10SysProcessC", "ThrowSystemError"]
+- !private ["10PerfectLib10SysProcessC", "UnsafeMutablePointer"]
+- !private ["10PerfectLib10SysProcessC", "UnsafeMutableRawPointer"]
+- !private ["10PerfectLib10SysProcessC", "WNOHANG"]
+- !private ["10PerfectLib10SysProcessC", "WUNTRACED"]
+- ["10PerfectLib10SysProcessC", "close"]
+- ["10PerfectLib10SysProcessC", "deinit"]
+- ["10PerfectLib10SysProcessC", "detach"]
+- !private ["10PerfectLib10SysProcessC", "errno"]
+- !private ["10PerfectLib10SysProcessC", "free"]
+- ["10PerfectLib10SysProcessC", "gid"]
+- ["10PerfectLib10SysProcessC", "init"]
+- ["10PerfectLib10SysProcessC", "isOpen"]
+- ["10PerfectLib10SysProcessC", "kill"]
+- ["10PerfectLib10SysProcessC", "killGroup"]
+- ["10PerfectLib10SysProcessC", "pid"]
+- ["10PerfectLib10SysProcessC", "pid_t"]
+- !private ["10PerfectLib10SysProcessC", "pipe"]
+- !private ["10PerfectLib10SysProcessC", "posix_spawn_file_actions_addclose"]
+- !private ["10PerfectLib10SysProcessC", "posix_spawn_file_actions_adddup2"]
+- !private ["10PerfectLib10SysProcessC", "posix_spawn_file_actions_destroy"]
+- !private ["10PerfectLib10SysProcessC", "posix_spawn_file_actions_init"]
+- !private ["10PerfectLib10SysProcessC", "posix_spawn_file_actions_t"]
+- !private ["10PerfectLib10SysProcessC", "posix_spawnattr_destroy"]
+- !private ["10PerfectLib10SysProcessC", "posix_spawnattr_init"]
+- !private ["10PerfectLib10SysProcessC", "posix_spawnattr_setflags"]
+- !private ["10PerfectLib10SysProcessC", "posix_spawnattr_t"]
+- !private ["10PerfectLib10SysProcessC", "posix_spawnp"]
+- ["10PerfectLib10SysProcessC", "stderr"]
+- ["10PerfectLib10SysProcessC", "stdin"]
+- ["10PerfectLib10SysProcessC", "stdout"]
+- !private ["10PerfectLib10SysProcessC", "strdup"]
+- ["10PerfectLib10SysProcessC", "wait"]
+- !private ["10PerfectLib10SysProcessC", "waitpid"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["Sp", "deinitialize"]
+- !private ["Sp", "subscript"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["Sv", "init"]
+- !private ["s14_ArrayProtocolP", "0"]
+- !private ["s14_ArrayProtocolP", "1"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "deallocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "deinitialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "0"]
+- !private ["s24_DestructorSafeContainerP", "1"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "assumingMemoryBound"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "deallocate"]
+- !private ["s8_PointerP", "deinitialize"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "10PerfectLib4FileC"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "s5Int16V"
+- !private "s5Int32V"
+- !private "10PerfectLib15JSONConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "10PerfectLib10SysProcessC"
+- !private "Sp"
+- !private "Sv"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTP.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectThread.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectNet.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0a62c2ad3e66fb9099dd7908324a1254"

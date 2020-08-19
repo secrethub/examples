@@ -1,0 +1,4 @@
+module PerfectThread {
+    header "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectThread.build/PerfectThread-Swift.h"
+    requires objc
+}

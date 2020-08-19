@@ -1,0 +1,4 @@
+module PerfectCrypto {
+    header "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/PerfectCrypto-Swift.h"
+    requires objc
+}

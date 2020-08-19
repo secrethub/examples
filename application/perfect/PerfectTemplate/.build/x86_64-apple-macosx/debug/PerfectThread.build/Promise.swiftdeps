@@ -1,0 +1,139 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Promise"
+- "BrokenPromise"
+provides-nominal:
+- "13PerfectThread7PromiseC"
+- "13PerfectThread13BrokenPromiseV"
+provides-member:
+- ["13PerfectThread7PromiseC", ""]
+- ["13PerfectThread13BrokenPromiseV", ""]
+- ["13PerfectThread7PromiseC", "get"]
+- ["13PerfectThread7PromiseC", "wait"]
+- ["13PerfectThread7PromiseC", "set"]
+- ["13PerfectThread7PromiseC", "fail"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BrokenPromise"
+- "DispatchQueue"
+- "Double"
+- "Error"
+- "Promise"
+- "StringLiteralType"
+- "Threading"
+depends-member:
+- ["13PerfectThread13BrokenPromiseV", "_code"]
+- ["13PerfectThread13BrokenPromiseV", "_domain"]
+- ["13PerfectThread13BrokenPromiseV", "_getEmbeddedNSError"]
+- ["13PerfectThread13BrokenPromiseV", "_userInfo"]
+- ["13PerfectThread13BrokenPromiseV", "deinit"]
+- ["13PerfectThread13BrokenPromiseV", "init"]
+- !private ["s7CVarArgP", "async"]
+- ["s7CVarArgP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["SQ", "async"]
+- ["SQ", "init"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "init"]
+- !private ["13PerfectThread9ThreadingV5EventC", "broadcast"]
+- ["13PerfectThread9ThreadingV5EventC", "init"]
+- !private ["13PerfectThread9ThreadingV5EventC", "lock"]
+- !private ["13PerfectThread9ThreadingV5EventC", "unlock"]
+- !private ["13PerfectThread9ThreadingV5EventC", "wait"]
+- !private ["SH", "async"]
+- ["SH", "init"]
+- !private ["13PerfectThread9ThreadingV4LockC", "broadcast"]
+- ["13PerfectThread9ThreadingV4LockC", "init"]
+- !private ["13PerfectThread9ThreadingV4LockC", "lock"]
+- !private ["13PerfectThread9ThreadingV4LockC", "unlock"]
+- !private ["13PerfectThread9ThreadingV4LockC", "wait"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "async"]
+- ["So8NSObjectP", "init"]
+- !private ["So9OS_objectC", "async"]
+- ["So9OS_objectC", "init"]
+- !private ["13PerfectThread7PromiseC", "BrokenPromise"]
+- ["13PerfectThread7PromiseC", "DispatchQueue"]
+- ["13PerfectThread7PromiseC", "Double"]
+- ["13PerfectThread7PromiseC", "Error"]
+- ["13PerfectThread7PromiseC", "Promise"]
+- ["13PerfectThread7PromiseC", "Threading"]
+- ["13PerfectThread7PromiseC", "deinit"]
+- ["13PerfectThread7PromiseC", "error"]
+- ["13PerfectThread7PromiseC", "event"]
+- ["13PerfectThread7PromiseC", "fail"]
+- ["13PerfectThread7PromiseC", "get"]
+- ["13PerfectThread7PromiseC", "init"]
+- ["13PerfectThread7PromiseC", "queue"]
+- ["13PerfectThread7PromiseC", "set"]
+- ["13PerfectThread7PromiseC", "then"]
+- ["13PerfectThread7PromiseC", "value"]
+- ["13PerfectThread7PromiseC", "wait"]
+- ["13PerfectThread7PromiseC", "when"]
+- !private ["7Combine9SchedulerP", "async"]
+- ["7Combine9SchedulerP", "init"]
+- ["13PerfectThread9ThreadingV", "Event"]
+- !private ["13PerfectThread9ThreadingV", "noTimeout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+depends-nominal:
+- "13PerfectThread13BrokenPromiseV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "SQ"
+- "s5ErrorP"
+- "13PerfectThread9ThreadingV5EventC"
+- "SH"
+- "13PerfectThread9ThreadingV4LockC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- "13PerfectThread7PromiseC"
+- "7Combine9SchedulerP"
+- "13PerfectThread9ThreadingV"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTP.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectLib.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectThread.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectCrypto.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/module.modulemap"
+- "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectNet.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e3b8aaf121f071b3388afca693942adb"

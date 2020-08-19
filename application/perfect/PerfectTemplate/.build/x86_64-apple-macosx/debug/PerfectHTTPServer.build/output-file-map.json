@@ -1,0 +1,113 @@
+{
+  "": {
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/master.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP11/HTTP11Request.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP11/HTTP11Request.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP11/HTTP11Request.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP11/HTTP11Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP11/HTTP11Request.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP11/HTTP11Response.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP11/HTTP11Response.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP11/HTTP11Response.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP11/HTTP11Response~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP11/HTTP11Response.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HPACK.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HPACK.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HPACK.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HPACK~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HPACK.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2Client.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Client.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Client.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Client~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Client.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2Frame.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Frame.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Frame.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Frame~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Frame.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2FrameReader.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2FrameReader.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2FrameReader.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2FrameReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2FrameReader.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2FrameWriter.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2FrameWriter.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2FrameWriter.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2FrameWriter~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2FrameWriter.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2PrefaceValidator.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2PrefaceValidator.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2PrefaceValidator.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2PrefaceValidator~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2PrefaceValidator.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2Request.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Request.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Request.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Request.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2Response.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Response.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Response.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Response~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Response.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2Session.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Session.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Session.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Session~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2Session.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTP2/HTTP2SessionSettings.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2SessionSettings.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2SessionSettings.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2SessionSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTP2/HTTP2SessionSettings.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTPContentCompression.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPContentCompression.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPContentCompression.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPContentCompression~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPContentCompression.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTPMultiplexer.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPMultiplexer.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPMultiplexer.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPMultiplexer~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPMultiplexer.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTPServer.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPServer.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPServer.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPServer~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPServer.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTPServerEx.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPServerEx.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPServerEx.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPServerEx~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPServerEx.swiftdeps"
+  },
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-HTTPServer/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": {
+    "dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPServerExConfig.d",
+    "object": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPServerExConfig.swift.o",
+    "swiftmodule": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPServerExConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/horiaculea/Desktop/PerfectTemplate/.build/x86_64-apple-macosx/debug/PerfectHTTPServer.build/HTTPServerExConfig.swiftdeps"
+  }
+}

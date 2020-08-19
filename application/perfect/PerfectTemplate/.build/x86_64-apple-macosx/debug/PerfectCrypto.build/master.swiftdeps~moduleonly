@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "f8b62e992ded5339589e8f5f476c23b4"
+build_time: [1597842046, 629047000]
+inputs:
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/Algorithms.swift": [1597842030, 533452337]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/ByteIO.swift": [1597842030, 556054530]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/Extensions.swift": [1597842030, 556388294]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/JWK.swift": [1597842030, 533874893]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/JWT.swift": [1597842030, 556645953]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/Keys.swift": [1597842030, 556864448]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/OpenSSLInternal.swift": [1597842030, 557244625]
+  "/Users/horiaculea/Desktop/PerfectTemplate/.build/checkouts/Perfect-Crypto/Sources/PerfectCrypto/PerfectCrypto.swift": [1597842030, 534407761]
