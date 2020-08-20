@@ -1,9 +1,6 @@
-FROM swift:latest
+FROM swift:5.2.5
 
 RUN apt-get update
-
-RUN apt-get upgrade -y && \
-    apt-get install -y git
 
 RUN apt-get install -y openssl libssl-dev uuid-dev
 
