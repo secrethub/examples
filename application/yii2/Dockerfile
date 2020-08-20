@@ -7,7 +7,7 @@ RUN composer create-project --prefer-dist yiisoft/yii2-app-basic basic
 RUN apk add --repository https://alpine.secrethub.io/alpine/edge/main --allow-untrusted secrethub-cli
 
 #Copy the modified file
-COPY main.php ./basic/views/layouts/main.php
+COPY ./basic/views/layouts/main.php ./basic/views/layouts/main.php
 
 # Expose default Yii2 port
 EXPOSE 8080
