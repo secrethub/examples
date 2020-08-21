@@ -1,4 +1,4 @@
-FROM composer:latest
+FROM composer:1.10.10
 
 # Initialize Yii2 project
 RUN composer create-project --prefer-dist yiisoft/yii2-app-basic basic
