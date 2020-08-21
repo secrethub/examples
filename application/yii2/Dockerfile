@@ -19,4 +19,4 @@ WORKDIR ./basic
 ENTRYPOINT ["secrethub", "run", "--"]
 
 # Start the main process
-CMD ["php", "yii", "serve", "0.0.0.0","--port=8080"] 
+CMD ["php", "yii", "serve", "0.0.0.0", "--port=8080"] 
