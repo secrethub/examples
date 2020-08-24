@@ -9,7 +9,7 @@ import play.api.mvc._
  * application's home page.
  */
 @Singleton
-class HomeController @Inject()(config: Configuration, val controllerComponents: ControllerComponents) extends BaseController {
+class HomeController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
 
   /**
    * Create an Action to render an HTML page.
@@ -19,10 +19,10 @@ class HomeController @Inject()(config: Configuration, val controllerComponents: 
    * a path of `/`.
    */
   def index() = Action { implicit request: Request[AnyContent] =>
-    if (config.get[String]("demo.username").isEmpty || config.get[String]("demo.password").isEmpty) {
+    if (sys.env.get("DEMO_USERNAME").get.isEmpty() || sys.env.get("DEMO_PASSWORD").get.isEmpty()) {
       InternalServerError("not all variables are set")
     } else {
-      Ok("Welcome home " + config.get[String]("demo.username"))
+      Ok("Welcome " + sys.env.get("DEMO_USERNAME").get)
     }
   }
 }
