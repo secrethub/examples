@@ -15,7 +15,7 @@ public class HomeController extends Controller {
      * <code>GET</code> request with a path of <code>/</code>.
      */
     public Result index() {
-        if (System.getenv("DEMO_USERNAME").isEmpty() || System.getenv("DEMO_PASSWORD").isEmpty()) {
+        if (System.getenv("DEMO_USERNAME") == null || System.getenv("DEMO_PASSWORD") == null) {
             return Results.internalServerError("not all variables are set");
         } else {
             return ok("Welcome " + System.getenv("DEMO_USERNAME"));
