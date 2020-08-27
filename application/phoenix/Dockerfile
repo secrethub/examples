@@ -1,4 +1,4 @@
-FROM elixir:latest
+FROM elixir:1.9.4
 
 RUN curl -sLJO https://deb.secrethub.io/amd64
 RUN dpkg -i secrethub-cli-amd64.deb
