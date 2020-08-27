@@ -5,7 +5,7 @@ let router = Router()
 
 if ProcessInfo.processInfo.environment["DEMO_USERNAME"] == nil || ProcessInfo.processInfo.environment["DEMO_PASSWORD"] == nil {
     router.get("/") { request, response, next in
-        response.send("either your username, your password, or both have not been set")
+        response.send("either the DEMO_USERNAME environment variable, DEMO_PASSWORD environment variable, or both have not been set.")
         next()
     }
 }
