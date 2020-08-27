@@ -10,9 +10,7 @@ RUN mix archive.install hex phx_new 1.5.4 --force
 
 RUN mix phx.new hello_phoenix_api --no-ecto
 
-COPY ./hello_phoenix_api/lib/hello_phoenix_api_web/router.ex                       ./hello_phoenix_api/lib/hello_phoenix_api_web/router.ex
-COPY ./hello_phoenix_api/lib/hello_phoenix_api_web/views/hello_view.ex             ./hello_phoenix_api/lib/hello_phoenix_api_web/views/hello_view.ex
-COPY ./hello_phoenix_api/lib/hello_phoenix_api_web/controllers/hello_controller.ex ./hello_phoenix_api/lib/hello_phoenix_api_web/controllers/hello_controller.ex
+COPY ./hello_phoenix_api /hello_phoenix_api
 
 EXPOSE 4000
 
