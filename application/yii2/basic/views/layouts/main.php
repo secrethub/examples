@@ -21,7 +21,7 @@ if ($_ENV["DEMO_USERNAME"] != "" && $_ENV["DEMO_PASSWORD"] != "") {
     echo  "Welcome " . $_ENV["DEMO_USERNAME"];
 }
 else {
-    echo "either your username, password, or both have not been set.";
+    echo "either the DEMO_USERNAME environment variable, DEMO_PASSWORD environment variable, or both have not been set.";
 }
 ?>
 </body>
