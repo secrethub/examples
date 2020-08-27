@@ -12,8 +12,7 @@ RUN apt-get install -y secrethub-cli
 RUN swift package init --type executable
 
 # Copy the necessary files
-COPY /HelloKitura/Package.swift /HelloKitura/Package.swift
-COPY /HelloKitura/Sources/HelloKitura/main.swift /HelloKitura/Sources/HelloKitura/main.swift
+COPY ./HelloKitura /HelloKitura
 
 # Get the dependencies
 RUN swift build
