@@ -5,4 +5,3 @@ defmodule HelloPhoenixApi.HelloController do
       render conn, "index.json"
     end
   end
-  
