@@ -24,7 +24,7 @@ import Foundation
 
 func giveResponse() -> String {
     if ProcessInfo.processInfo.environment["DEMO_USERNAME"] == nil || ProcessInfo.processInfo.environment["DEMO_PASSWORD"] == nil {
-        return "either your username, your password, or both have not been set"
+        return "either the DEMO_USERNAME environment variable, DEMO_PASSWORD environment variable, or both have not been set."
     }
     else {
         return "welcome, \(ProcessInfo.processInfo.environment["DEMO_USERNAME"] ?? "")"
