@@ -9,7 +9,7 @@ RUN apt-get install -y secrethub-cli
 
 RUN git clone https://github.com/PerfectlySoft/PerfectTemplate.git
 
-COPY  /PerfectTemplate/Sources/PerfectTemplate/main.swift /PerfectTemplate/Sources/PerfectTemplate/main.swift
+COPY  ./PerfectTemplate /PerfectTemplate
 WORKDIR ./PerfectTemplate
 RUN swift build
 
