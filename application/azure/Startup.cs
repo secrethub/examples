@@ -79,7 +79,7 @@ namespace azure
                     } catch(Exception ex) {
                         Console.WriteLine(ex.ToString());
                         context.Response.StatusCode = 500;
-                        await context.Response.WriteAsync("Error encountered while writing secret.");
+                        await context.Response.WriteAsync(outputSuccess + "Error encountered while writing secret.");
                         return;
                     }
 
@@ -89,13 +89,13 @@ namespace azure
                         if (SecretHub.Client.Exists(newPath)) 
                         {
                             context.Response.StatusCode = 500;
-                            await context.Response.WriteAsync("Secret was not removed.");
+                            await context.Response.WriteAsync(outputSuccess + "Secret was not removed.");
                             return;
                         }
                     } catch(Exception ex) {
                         Console.WriteLine(ex.ToString());
                         context.Response.StatusCode = 500;
-                        await context.Response.WriteAsync("Error encountered while removing secret.");
+                        await context.Response.WriteAsync(outputSuccess + "Error encountered while removing secret.");
                         return;
                     }
 
@@ -106,13 +106,13 @@ namespace azure
                         if (!username.Equals(secretValue))
                         {
                             context.Response.StatusCode = 500;
-                            await context.Response.WriteAsync("Refernce string not resolved properly.");
+                            await context.Response.WriteAsync(outputSuccess + "Refernce string not resolved properly.");
                             return;
                         }
                     } catch(Exception ex) {
                         Console.WriteLine(ex.ToString());
                         context.Response.StatusCode = 500;
-                        await context.Response.WriteAsync("Error encountered while resolving reference.");
+                        await context.Response.WriteAsync(outputSuccess + "Error encountered while resolving reference.");
                         return;
                     }
 
@@ -121,13 +121,12 @@ namespace azure
                         // reference of the format `secrethub://<path>`, this function will replace it with the secret value,
                         // the one you will use in your code.
                         Dictionary<string, string> envVars = SecretHub.Client.ResolveEnv();
-                        string response = "";
                         foreach(KeyValuePair<string, string> kvp in envVars)
                             outputSuccess += string.Format("Key: {0}, Value: {1}\n", kvp.Key, kvp.Value);
                     } catch(Exception ex) {
                         Console.WriteLine(ex.ToString());
                         context.Response.StatusCode = 500;
-                        await context.Response.WriteAsync("Error encountered while resolving environment variables.");
+                        await context.Response.WriteAsync(outputSuccess + "Error encountered while resolving environment variables.");
                         return;
                     }
 
