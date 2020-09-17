@@ -103,11 +103,11 @@ resource "kubernetes_deployment" "demo_app" {
           }
           env {
             name  = "DEMO_USERNAME"
-            value = "secrethub://${var.secrethub_repo}/app/username"
+            value = "secrethub://${var.secrethub_repo}/username"
           }
           env {
             name  = "DEMO_PASSWORD"
-            value = "secrethub://${var.secrethub_repo}/app/password"
+            value = "secrethub://${var.secrethub_repo}/password"
           }
         }
       }
