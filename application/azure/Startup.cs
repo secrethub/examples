@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -133,8 +134,13 @@ namespace azure
                         // reference of the format `secrethub://<path>`, this function will replace it with the secret value,
                         // the one you will use in your code.
                         Dictionary<string, string> envVars = client.ResolveEnv();
-                        foreach(KeyValuePair<string, string> kvp in envVars)
-                            outputSuccess += string.Format("Key: {0}, Value: {1}\n", kvp.Key, kvp.Value);
+                        outputSuccess += "List of environment variables that were `resolved`:\n";
+                        foreach (DictionaryEntry de in Environment.GetEnvironmentVariables())
+                        {
+                            string key = Convert.ToString(de.Key);
+                            if (Convert.ToString(de.Value).Contains("secrethub://"))
+                                outputSuccess += string.Format("Key: {0}, Value: {1}\n", key, envVars[key]);
+                        }
                     } catch(Exception ex) {
                         Console.WriteLine(ex.ToString());
                         context.Response.StatusCode = 500;
