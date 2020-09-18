@@ -1,9 +1,12 @@
 variable "secrethub_repo" {
-  description = "Your SecretHub repository"
+  description = "SecretHub repo that contains the demo `username` and `password` secrets. To create this repo, run `secrethub demo init`."
 }
 
-variable "vpc_id" {}
+variable "vpc_id" {
+  description = "The VPC the EKS cluster lives in."
+}
 
 variable "subnets" {
-  type = list(string)
+  type        = list(string)
+  description = "The subnets the EKS cluster lives in. Should be at least 2 AZs."
 }
