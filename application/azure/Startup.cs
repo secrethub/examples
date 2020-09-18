@@ -43,10 +43,22 @@ namespace azure
                     string username;
                     string password;
                     string outputSuccess = "";
+                    SecretHub.Client client;
+
+                    try {
+                        // Let's create a new client first
+                        client = new SecretHub.Client();
+                    } catch(Exception ex) {
+                        Console.WriteLine(ex.ToString());
+                        context.Response.StatusCode = 500;
+                        await context.Response.WriteAsync("Error encountered while creating client.");
+                        return;
+                    }
+
                     try {
 
-                        // First we check whether the username secret exists
-                        if (!SecretHub.Client.Exists(usernameEnvVar))
+                        // Before doing anything, let's check whether the username secret exists
+                        if (!client.Exists(usernameEnvVar))
                         {
                             context.Response.StatusCode = 500;
                             await context.Response.WriteAsync("Username secret does not exist.");
@@ -54,13 +66,13 @@ namespace azure
                         }
 
                         // Then we read the 2 environment variables
-                        username = SecretHub.Client.ReadString(usernameEnvVar);
-                        password = SecretHub.Client.ReadString(passwordEnvVar);
+                        username = client.ReadString(usernameEnvVar);
+                        password = client.ReadString(passwordEnvVar);
 
                         outputSuccess += "Hello "+username+"!\n";
 
                         // To get more details about the secret, you can do this
-                        SecretHub.SecretVersion secret = SecretHub.Client.Read(usernameEnvVar);
+                        SecretHub.SecretVersion secret = client.Read(usernameEnvVar);
                         outputSuccess += "Username secret value's version: " + secret.Version.ToString() + "\n";
 
                     } catch(Exception ex) {
@@ -74,8 +86,8 @@ namespace azure
 
                     try {
                         // Let's write a new secret
-                        SecretHub.Client.Write(newPath, "Hello from SecretHub XGO.\n");
-                        outputSuccess += "The new secret written is: " + SecretHub.Client.ReadString(newPath);
+                        client.Write(newPath, "Hello from SecretHub XGO.\n");
+                        outputSuccess += "The new secret written is: " + client.ReadString(newPath);
                     } catch(Exception ex) {
                         Console.WriteLine(ex.ToString());
                         context.Response.StatusCode = 500;
@@ -85,8 +97,8 @@ namespace azure
 
                     try {
                         // Now we will remove it
-                        SecretHub.Client.Remove(newPath);
-                        if (SecretHub.Client.Exists(newPath)) 
+                        client.Remove(newPath);
+                        if (client.Exists(newPath)) 
                         {
                             context.Response.StatusCode = 500;
                             await context.Response.WriteAsync(outputSuccess + "Secret was not removed.");
@@ -102,7 +114,7 @@ namespace azure
                     try {
                         // In case you have to fetch a secret value from SecretHub by using a `reference` string 
                         // (it has the format `secrethub://<path>`), then you can do this:
-                        string secretValue = SecretHub.Client.Resolve("secrethub://" + usernameEnvVar);
+                        string secretValue = client.Resolve("secrethub://" + usernameEnvVar);
                         if (!username.Equals(secretValue))
                         {
                             context.Response.StatusCode = 500;
@@ -120,7 +132,7 @@ namespace azure
                         // Here we will get the list of environment variables and their values. If one's value is a 
                         // reference of the format `secrethub://<path>`, this function will replace it with the secret value,
                         // the one you will use in your code.
-                        Dictionary<string, string> envVars = SecretHub.Client.ResolveEnv();
+                        Dictionary<string, string> envVars = client.ResolveEnv();
                         foreach(KeyValuePair<string, string> kvp in envVars)
                             outputSuccess += string.Format("Key: {0}, Value: {1}\n", kvp.Key, kvp.Value);
                     } catch(Exception ex) {
