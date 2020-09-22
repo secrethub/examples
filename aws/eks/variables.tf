@@ -8,5 +8,5 @@ variable "vpc_id" {
 
 variable "subnets" {
   type        = list(string)
-  description = "The subnets the EKS cluster lives in. Should be at least 2 AZs."
+  description = "The subnets the EKS cluster lives in. A minimum of 2 AZs is required."
 }
