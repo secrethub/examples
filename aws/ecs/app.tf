@@ -49,10 +49,6 @@ resource "secrethub_access_rule" "demo_app" {
   permission   = "read"
 }
 
-resource "aws_ecs_cluster" "secrethub_demo" {
-  name = "SecretHubDemoCluster"
-}
-
 data "aws_iam_role" "ecs_execution_role" {
   name = "ecsTaskExecutionRole"
 }
@@ -110,6 +106,10 @@ resource "aws_ecs_service" "secrethub_demo" {
   }
 
   desired_count = 1
+
+  depends_on = [
+    secrethub_access_rule.demo_app,
+  ]
 }
 
 resource "aws_security_group" "secrethub_demo" {
