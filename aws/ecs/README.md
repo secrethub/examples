@@ -12,9 +12,9 @@
 This example creates an ECS cluster and deploys the [SecretHub Demo App](https://secrethub.io/docs/start/getting-started/#consume) to it and provisions it with the required secrets using the [SecretHub AWS Identity Provider](https://secrethub.io/docs/reference/aws/).
 
 ## Prerequisites
-1. [Terraform](https://www.terraform.io/downloads.html) installed
-2. [SecretHub](https://secrethub.io/docs/start/getting-started/#install) installed
-3. Correctly configured [AWS Credentials](https://www.terraform.io/docs/providers/aws/index.html#authentication)
+1. [Terraform](https://www.terraform.io/downloads.html) installed along with the [SecretHub Provider](https://secrethub.io/docs/guides/terraform/#install)
+1. Correctly configured [AWS Credentials](https://www.terraform.io/docs/providers/aws/index.html#authentication)
+1. [Values assigned](https://www.terraform.io/docs/configuration/variables.html#assigning-values-to-root-module-variables) to the variables in [variables.tf](./variables.tf)
 
 ## Running the example
 
