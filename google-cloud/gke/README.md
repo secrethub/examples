@@ -13,7 +13,7 @@ This example uses Terraform to deploy the [SecretHub Demo App](https://secrethub
 ## Prerequisites
 1. [Terraform](https://www.terraform.io/downloads.html) installed along with the [SecretHub Provider](https://secrethub.io/docs/guides/terraform/#install)
 1. Correctly configured [GCP Credentials](https://www.terraform.io/docs/providers/google/guides/provider_reference.html#full-reference)
-1. Variables in [variables.tf](./variables.tf)
+1. [Values assigned](https://www.terraform.io/docs/configuration/variables.html#assigning-values-to-root-module-variables) to the variables in [variables.tf](./variables.tf)
 
 ## Running the example
 
