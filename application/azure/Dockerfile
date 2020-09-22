@@ -7,8 +7,7 @@ RUN apt-get install -y secrethub-cli
 RUN mkdir azure
 WORKDIR /azure
 RUN dotnet new web
-COPY *.csproj *.cs *.nupkg ./
-RUN dotnet add package SecretHub -s $PWD
+COPY *.csproj *.cs ./
 
 # Expose Azure App service standard port 5000
 EXPOSE 5000
