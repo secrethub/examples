@@ -23,6 +23,7 @@ secrethub service init --description demo_service \
 --permission read --file demo_service.cred ${SECRETHUB_USERNAME}/demo
 ```
 
+Set the environment variables used by the application and provision the SecretHub credential to the client
 ```
 export DEMO_USERNAME=${SECRETHUB_USERNAME}/demo/username
 export DEMO_PASSWORD=${SECRETHUB_USERNAME}/demo/password
