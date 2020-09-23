@@ -30,7 +30,11 @@ dotnet run
 
 If you now visit http://localhost:8080, you should see the welcome message including your username.
 
+## Deploying to Azure App Service
+The example can be deployed by following the steps in the [Microsoft Quickstart Guide](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore). 
 
+Make sure of the following:
+- Pick Basic or higher as the pricing tier (instead of the suggested one).
+- Set the Platform to 64 bits. This can be done by going to _Settings_ -> _Configuration_ -> _General Settings_ -> _Platform Settings_ and setting the _Platform_ to `64 bit`.
 
-> The example can be deployed by following the steps in the [Microsoft Quickstart Guide](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore). Ensure that you pick a different pricing tier (instead of the suggested one) that allows using 64 bit containers and that you configure your deployment to use 64 bit containers (by going to _Settings_ -> _Configuration_ -> _General Settings_ -> _Platform Settings_ and setting the _Platform_ to `64 bit`).
-> The environment variables required can be configured as Application Settings (by navigating to _Settings_ -> _Configuration_ -> _Application Settings_ and adding the Application Settings).
+The environment variables required can be configured as Application Settings, by navigating to _Settings_ -> _Configuration_ -> _Application Settings_ and adding the Application Settings.
