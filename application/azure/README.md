@@ -1,4 +1,4 @@
-This example demonstrates how to use SecretHub .NET client in an ASP.NET application.
+This C# example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's the case, you'll receive a `200` on http://localhost:8080 and if it's not, you'll get a `500`.
 
 ## Prerequisites
 1. [SecretHub](https://secrethub.io/docs/start/getting-started/#install) installed
@@ -6,17 +6,10 @@ This example demonstrates how to use SecretHub .NET client in an ASP.NET applica
 1. Have the [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/) installed
 
 ## Running the example
-To make it easier to follow upcoming steps, export your SecretHub username to an environment variable:
+
+Set the SecretHub username in an environment variable
 ```
 export SECRETHUB_USERNAME=<your-username>
-```
-
-This example expects the following two environment variables to be set to secret paths.
-
-To set them, run the following commands:
-```
-export DEMO_USERNAME_PATH=${SECRETHUB_USERNAME}/demo/username
-export DEMO_PASSWORD_PATH=${SECRETHUB_USERNAME}/demo/password
 ```
 
 Create a service account for the demo repo
@@ -25,24 +18,20 @@ secrethub service init --description demo_service \
 --permission read --file demo_service.cred ${SECRETHUB_USERNAME}/demo
 ```
 
-Build the ASP.NET docker demo
 ```
-docker build . -t aspnet-secrethub-demo
+export DEMO_USERNAME=${SECRETHUB_USERNAME}/demo/username
+export DEMO_PASSWORD=${SECRETHUB_USERNAME}/demo/password
+export SECRETHUB_CREDENTIAL=$(cat demo_service.cred)
 ```
 
-Run the docker demo with the secrets in the environment variables
-```
-docker run -p 8080:5000 \
-  -e DEMO_USERNAME=secrethub://${SECRETHUB_USERNAME}/demo/username \
-  -e DEMO_PASSWORD=secrethub://${SECRETHUB_USERNAME}/demo/password \
-  -e SECRETHUB_CREDENTIAL=$(cat demo_service.cred) \
-  aspnet-secrethub-demo
+```bash
+dotnet run
 ```
 
 If you now visit http://localhost:8080, you should see the welcome message including your username.
 
 
-## Deploying the example
+
 The example can be deployed as described in the following Azure App Service deployment guide:
 [https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?pivots=platform-linux](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?pivots=platform-linux)
 
@@ -66,3 +55,13 @@ DEMO_PASSWORD_PATH=your-username/demo/password
 These can be configured in the Application Settings, just like the `SECRETHUB_CREDENTIAL`.
 
 To make sure that these secrets exist run `secrethub demo init`.
+
+## Running the example locally
+To run the example locally you must either have a SecretHub account configured locally or set the `SECRETHUB_CREDENTIAL` environment variable to a valid SecretHub credential (as described in the previous step).
+
+Configure the `DEMO_USERNAME_PATH` and `DEMO_PASSWORD_PATH` environment variables as described in the previous step.
+
+Afterwards the example can be run with the dotnet CLI (for example):
+```bash
+dotnet run
+```
