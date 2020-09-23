@@ -1,35 +1,25 @@
-This Azure App Service presents how to use SecretHub-XGO library in a C# project.
+This example demonstrates how to deploy an ASP.NET application that uses the SecretHub .NET client to Azure.
 
-## Prerequisites
-1. [Docker](https://docs.docker.com/install/) installed and running
-1. [SecretHub](https://secrethub.io/docs/start/getting-started/#install) installed
-1. A SecretHub repo that contains a `username` and `password` secret. To create it, run `secrethub demo init`.
+## Deploying the example
+The example can be deployed as described in the following Azure App Service deployment guide:
+[https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?pivots=platform-linux](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?pivots=platform-linux)
 
-## Running the example
+Since the SecretHub .NET Client does not support 32 bit environments, the deployment must be configured to run in a 64 bit container.
+This can be done by opening the App Service on the Azure Portal, going to Settings -> Configuration -> General Settings -> Platform Settings and setting the Platform to `64 bit`.
 
-Set the SecretHub username in an environment variable
-```
-export SECRETHUB_USERNAME=<your-username>
-```
+To allow the SecretHub .NET Client to fetch and decrypt secrets from the SecretHub API, a service credential must be provided to it.
 
-Create a service account for the demo repo
-```
-secrethub service init --description demo_service \
---permission admin --file demo_service.cred ${SECRETHUB_USERNAME}/demo
+First, run the following command on your local workstation to create a service credential:
+```bash
+secrethub service init --permission read your-company/your-repo
 ```
 
-Build the Azure App Service docker demo
-```
-docker build . -t azureapp-secrethub-demo
-```
+Copy the outputted service credential and add it as an Application Setting named `SECRETHUB_CREDENTIAL`. This can be done by navigating to Settings -> Configuration -> Application Settings -> New Application Setting and adding the new setting.
 
-Run the docker demo with the secrets in the environment variables
-```
-docker run -p 8080:80 \
-  -e DEMO_USERNAME=${SECRETHUB_USERNAME}/demo/username \
-  -e DEMO_PASSWORD=${SECRETHUB_USERNAME}/demo/password \
-  -e SECRETHUB_CREDENTIAL=$(cat demo_service.cred) \
-  azureapp-secrethub-demo
-```
+## Running the example locally
+To run the example locally you must either have a SecretHub account configured locally or set the `SECRETHUB_CREDENTIAL` environment variable to a valid SecretHub credential (as described in the previous step).
 
-If you now visit http://localhost:8080, you should see a welcome message, as well as other messages that show how the library works.
+Afterwards the example can be run with the dotnet CLI (for example):
+```bash
+dotnet run
+```
