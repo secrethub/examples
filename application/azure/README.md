@@ -21,7 +21,7 @@ This Demo Application also makes use the `DEMO_USERNAME_PATH` and `DEMO_PASSWORD
 DEMO_USERNAME_PATH=your-username/demo/username
 DEMO_PASSWORD_PATH=your-username/demo/password
 ```
-These can be configured in the Application Settings as described in the previous step.
+These can be configured in the Application Settings, just like the `SECRETHUB_CREDENTIAL`.
 
 To make sure that these secrets exist run `secrethub demo init`.
 
