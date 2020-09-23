@@ -16,6 +16,15 @@ secrethub service init --permission read your-company/your-repo
 
 Copy the outputted service credential and add it as an Application Setting named `SECRETHUB_CREDENTIAL`. This can be done by navigating to Settings -> Configuration -> Application Settings -> New Application Setting and adding the new setting.
 
+This Demo Application also makes use the `DEMO_USERNAME_PATH` and `DEMO_PASSWORD_PATH` environment variables, which should be set to the following values:
+```
+DEMO_USERNAME_PATH=your-username/demo/username
+DEMO_PASSWORD_PATH=your-username/demo/password
+```
+These can be configured in the Application Settings as described in the previous step.
+
+To make sure that these secrets exist run `secrethub demo init`.
+
 ## Running the example locally
 To run the example locally you must either have a SecretHub account configured locally or set the `SECRETHUB_CREDENTIAL` environment variable to a valid SecretHub credential (as described in the previous step).
 
