@@ -1,4 +1,9 @@
-This C# example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's the case, you'll receive a `200` on http://localhost:8080 and if it's not, you'll get a `500`.
+<p align="center">
+  <img src="https://secrethub.io/img/integrations/aspnet/github-banner.png?v1" alt="ASP.NET + SecretHub" height="230">
+</p>
+<br/>
+
+This ASP.NET using the SecretHub .NET SDK example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's the case, you'll receive a `200` on http://localhost:8080 and if it's not, you'll get a `500`.
 
 ## Prerequisites
 1. [SecretHub](https://secrethub.io/docs/start/getting-started/#install) installed
