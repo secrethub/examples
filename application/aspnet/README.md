@@ -30,6 +30,7 @@ export DEMO_PASSWORD=${SECRETHUB_USERNAME}/demo/password
 export SECRETHUB_CREDENTIAL=$(cat demo_service.cred)
 ```
 
+Run the example on localhost
 ```bash
 dotnet run
 ```
