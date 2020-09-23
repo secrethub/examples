@@ -28,6 +28,8 @@ To make sure that these secrets exist run `secrethub demo init`.
 ## Running the example locally
 To run the example locally you must either have a SecretHub account configured locally or set the `SECRETHUB_CREDENTIAL` environment variable to a valid SecretHub credential (as described in the previous step).
 
+Configure the `DEMO_USERNAME_PATH` and `DEMO_PASSWORD_PATH` environment variables as described in the previous step.
+
 Afterwards the example can be run with the dotnet CLI (for example):
 ```bash
 dotnet run
