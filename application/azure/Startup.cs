@@ -33,11 +33,11 @@ namespace azure
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    string usernamePath = Environment.GetEnvironmentVariable("DEMO_USERNAME_PATH");
-                    string passwordPath = Environment.GetEnvironmentVariable("DEMO_PASSWORD_PATH");
+                    string usernamePath = Environment.GetEnvironmentVariable("DEMO_USERNAME");
+                    string passwordPath = Environment.GetEnvironmentVariable("DEMO_PASSWORD");
                     if( (string.IsNullOrEmpty(usernamePath)) || (string.IsNullOrEmpty(passwordPath)) ){
                         context.Response.StatusCode = 500;
-                        await context.Response.WriteAsync("DEMO_USERNAME_PATH or DEMO_PASSWORD_PATH environment variables were not set.");
+                        await context.Response.WriteAsync("DEMO_USERNAME or DEMO_PASSWORD environment variables were not set.");
                         return;
                     }
 
