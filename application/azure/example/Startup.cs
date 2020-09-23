@@ -41,39 +41,12 @@ namespace azure
                         return;
                     }
 
-                    string username;
-                    string password;
                     string outputSuccess = "";
-                    SecretHub.Client client;
-
                     try {
-                        // Let's create a new client first
-                        client = new SecretHub.Client();
-                    } catch(Exception ex) {
-                        Console.WriteLine(ex.ToString());
-                        context.Response.StatusCode = 500;
-                        await context.Response.WriteAsync("Error encountered while creating client.");
-                        return;
-                    }
+                        SecretHub.Client client = new SecretHub.Client();
 
-                    try {
-                        // Before doing anything, let's check whether the username and password secrets exists
-                        if (!client.Exists(usernamePath))
-                        {
-                            context.Response.StatusCode = 500;
-                            await context.Response.WriteAsync("Username secret does not exist.");
-                            return;
-                        }
-                        if (!client.Exists(passwordPath))
-                        {
-                            context.Response.StatusCode = 500;
-                            await context.Response.WriteAsync("Password secret does not exist.");
-                            return;
-                        }
-
-                        // Then we read the two secrets.
-                        username = client.ReadString(usernamePath);
-                        password = client.ReadString(passwordPath);
+                        string username = client.ReadString(usernamePath);
+                        string password = client.ReadString(passwordPath);
 
                         outputSuccess += "Hello "+username+"!\n";
                     } catch(Exception ex) {
@@ -82,7 +55,6 @@ namespace azure
                         await context.Response.WriteAsync("Error encountered while reading secrets.");
                         return;
                     }
-
                     await context.Response.WriteAsync(outputSuccess);
                 });
             });
