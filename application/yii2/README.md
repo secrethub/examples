@@ -1,4 +1,4 @@
-This Yii2 example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's not the case, you'll receive an error text at http://localhost:8080.
+This Yii2 example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's not the case, you'll receive an error message at http://localhost:8080.
 
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
