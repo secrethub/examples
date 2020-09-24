@@ -1,4 +1,4 @@
-FROM composer:latest
+FROM composer:1.10.10
 
 # Create Laravel project
 RUN composer create-project laravel/laravel demo
