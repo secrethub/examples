@@ -3,7 +3,7 @@ This Yii2 example checks if the environment variables `DEMO_USERNAME` and `DEMO_
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
 1. [SecretHub](https://secrethub.io/docs/start/getting-started/#install) installed
-1. A SecretHub repo that contains a `username` and `password` secret. To create it, run `secrethub demo init`.
+1. A SecretHub repo that contains a `username` and `password` secret. To create it, run `secrethub demo init`
 
 ## Running the example
 
