@@ -1,3 +1,5 @@
+This Laravel example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's not the case, you'll receive an error message at http://localhost:8000.
+
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
 1. [SecretHub](https://secrethub.io/docs/start/getting-started/#install) installed
@@ -30,4 +32,4 @@ docker run -p 8000:8000 \
   laravel-secrethub-demo
 ```
 
-If you now visit http://localhost:8000, you should see a message including your username and password.
+If you now visit http://localhost:8000, you should see a message including your username.
