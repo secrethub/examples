@@ -4,7 +4,13 @@
 <title>Hello World</title>
 </head>
 <body>
-<h1> Username: {{ env('APP_USERNAME') }}</h1>
-<h1> Password: {{ env('APP_PASSWORD') }}</h1>
+<?php
+if ($_ENV["DEMO_USERNAME"] != "" && $_ENV["DEMO_PASSWORD"] != "") {
+    echo  "Welcome " . $_ENV["DEMO_USERNAME"];
+}
+else {
+    echo "The DEMO_USERNAME or DEMO_PASSWORD environment variable is not set.";
+}
+?>
 </body>
 </html>
