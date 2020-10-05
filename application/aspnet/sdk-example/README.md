@@ -30,7 +30,8 @@ docker build . -t aspnet-secrethub-demo
 
 Run the docker demo, passing the newly created service credential and your username as environment variables.
 ```
-docker run -e SECRETHUB_CREDENTIAL=$(cat $HOME/.secrethub/credential) -e SECRETHUB_USERNAME=${SECRETHUB_USERNAME} -p 5000:5000 aspnet-secrethub-demo
+docker run -e SECRETHUB_CREDENTIAL=$(cat $HOME/.secrethub/credential) -e \
+SECRETHUB_USERNAME=${SECRETHUB_USERNAME} -p 5000:5000 aspnet-secrethub-demo
 ```
 
 If you now visit http://localhost:5000, you should see the welcome message including your username.
