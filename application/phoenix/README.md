@@ -25,7 +25,7 @@ docker build . -t phoenix-secrethub-demo
 
 Run the docker demo with the secrets in the environment variables
 ```
-docker run -p 8080:8080 \
+docker run -p 4000:4000 \
   -e DEMO_USERNAME=secrethub://${SECRETHUB_USERNAME}/demo/username \
   -e DEMO_PASSWORD=secrethub://${SECRETHUB_USERNAME}/demo/password \
   -e SECRETHUB_CREDENTIAL=$(cat demo_service.cred) \
