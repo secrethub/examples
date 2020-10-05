@@ -3,7 +3,7 @@
 </p>
 <br/>
 
-In contrast with the CLI example, the SDK example does not require any environment variable manipulation. Following the below steps results in an welcome message on http://localhost:5000. If anything shall occur, you will receive an appropriate error message at the same address.
+In contrast with the CLI example, the SDK example requires less interaction with environment variables, as it is a native integration for C#. Following the below steps will result in an welcome message on http://localhost:5000. If any error shall occur, you will receive an appropriate descriptive message at the same address.
 
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
@@ -12,14 +12,25 @@ In contrast with the CLI example, the SDK example does not require any environme
 
 ## Running the example
 
+Set the SecretHub username in an environment variable
+```
+export SECRETHUB_USERNAME=<your-username>
+```
+
+Create a service account for the demo repo
+```
+secrethub service init --description demo_service \
+--permission read --file demo_service.cred ${SECRETHUB_USERNAME}/demo
+```
+
 Build the ASP.NET docker demo
 ```
 docker build . -t aspnet-secrethub-demo
 ```
 
-Run the docker demo, mounting your credential in the container and specifying your username through an environment variable.
+Run the docker demo, passing the newly created service credential and your username as environment variables.
 ```
-docker run -v $HOME/.secrethub/credential:/root/.secrethub/credential -p 5000:5000 -e SECRETHUB_USERNAME=<your-secrethub-username> aspnet-secrethub-demo
+docker run -e SECRETHUB_CREDENTIAL=$(cat $HOME/.secrethub/credential) -e SECRETHUB_USERNAME=${SECRETHUB_USERNAME} -p 5000:5000 aspnet-secrethub-demo
 ```
 
 If you now visit http://localhost:5000, you should see the welcome message including your username.
