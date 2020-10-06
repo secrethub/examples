@@ -36,7 +36,6 @@ namespace example.Pages
             try
             {
                 user = System.Environment.GetEnvironmentVariable("SECRETHUB_USERNAME");
-
             }
             catch (Exception e)
             {
