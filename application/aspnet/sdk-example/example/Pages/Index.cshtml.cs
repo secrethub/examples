@@ -31,7 +31,7 @@ namespace example.Pages
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                return "error in client creation";
+                return "error creating client";
             }
             try
             {
@@ -40,7 +40,7 @@ namespace example.Pages
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                return "error in fetching username";
+                return "error fetching username";
             }
             try
             {
@@ -49,7 +49,7 @@ namespace example.Pages
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                return "error in reading demo username";
+                return "error reading demo username";
             }
             try
             {
@@ -59,7 +59,7 @@ namespace example.Pages
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                return "error in reading demo password";
+                return "error reading demo password";
             }
         }
     }
