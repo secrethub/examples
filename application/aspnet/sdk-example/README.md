@@ -3,7 +3,7 @@
 </p>
 <br/>
 
-In contrast with the CLI example, the SDK example requires less interaction with environment variables, as it is a native integration for C#. Following the below steps will result in an welcome message on http://localhost:5000. If any error shall occur, you will receive an appropriate descriptive message at the same address.
+This example aims to display the use of the native .NET SecretHub integration.  Following the below steps will result in an welcome message on http://localhost:5000. If any error shall occur, you will receive an appropriate descriptive message at the same address.
 
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
