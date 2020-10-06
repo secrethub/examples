@@ -21,38 +21,46 @@ namespace example.Pages
         }
         public static string response()
         {
+            SecretHub.Client client;
+            string user, username, password;
+
             try
             {
-                var client = new SecretHub.Client();
-                try
-                {
-                    var user = System.Environment.GetEnvironmentVariable("SECRETHUB_USERNAME");
-                    try
-                    {
-                        var username = client.Read(user + "/demo/username").Data;
-                        try
-                        {
-                            var password = client.Read(user + "/demo/password").Data;
-                            return "Hello, " + username + "!";
-                        }
-                        catch
-                        {
-                            return "error in reading demo password";
-                        }
-                    }
-                    catch
-                    {
-                        return "error in reading demo username";
-                    }
-                }
-                catch
-                {
-                    return "error in fetching username";
-                }
+                client = new SecretHub.Client();
             }
-            catch
+            catch (Exception e)
             {
+                Console.WriteLine(e);
                 return "error in client creation";
+            }
+            try
+            {
+                user = System.Environment.GetEnvironmentVariable("SECRETHUB_USERNAME");
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return "error in fetching username";
+            }
+            try
+            {
+                username = client.Read(user + "/demo/username").Data;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return "error in reading demo username";
+            }
+            try
+            {
+                password = client.Read(user + "/demo/password").Data;
+                return "Hello, " + username + "!";
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return "error in reading demo password";
             }
         }
     }
