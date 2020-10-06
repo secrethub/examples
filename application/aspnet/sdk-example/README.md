@@ -3,7 +3,9 @@
 </p>
 <br/>
 
-This example aims to display the use of the native .NET SecretHub integration.  Following the below steps will result in an welcome message on http://localhost:5000. If any error shall occur, you will receive an appropriate descriptive message at the same address.
+This example demonstrates the use of the [native SecretHub .NET integration](https://github.com/secrethub/secrethub-dotnet) in an ASP.NET application.
+Following the steps below will result in an welcome message on http://localhost:5000.
+If any error occurs, you will receive a descriptive error message in the console.
 
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
