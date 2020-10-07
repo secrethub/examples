@@ -14,18 +14,18 @@ If any error occurs, you will receive a descriptive error message in the console
 
 ## Running the example
 
-Set the SecretHub username in an environment variable
+Set the SecretHub username in an environment variable.
 ```
 export SECRETHUB_USERNAME=<your-username>
 ```
 
-Create a service account for the demo repo
+Create a service account for the demo repo.
 ```
 secrethub service init --description demo_service \
 --permission read --file demo_service.cred ${SECRETHUB_USERNAME}/demo
 ```
 
-Build the ASP.NET docker demo
+Build the ASP.NET docker demo.
 ```
 docker build . -t aspnet-secrethub-demo
 ```
