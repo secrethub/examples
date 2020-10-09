@@ -20,37 +20,18 @@ namespace example.Pages
             Message = response();
         }
         public static string response()
-        {   
-            SecretHub.Client client;
-            string username, password;
-
-            try
-            {   
-                client = new SecretHub.Client();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                return "error creating client";
-            }
+        {
             try
             {
-                username = client.Resolve(System.Environment.GetEnvironmentVariable("DEMO_USERNAME"));
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                return "error reading demo username";
-            }
-            try
-            {
-                password = client.Resolve(System.Environment.GetEnvironmentVariable("DEMO_PASSWORD"));
+                var secrets = new SecretHub.Client().ResolveEnv();
+                string username = secrets["DEMO_USERNAME"];
+                string password = secrets["DEMO_PASSWORD"];
                 return "Hello, " + username + "!";
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                return "error reading demo password";
+                return "your username, password or secrethub credential have not been set correctly.";
             }
         }
     }
