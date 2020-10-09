@@ -21,30 +21,21 @@ namespace example.Pages
         }
         public static string response()
         {
-            SecretHub.Client client;
-            string user, username, password;
+            Dictionary<string, string> secrets;
+            string username, password;
 
             try
             {
-                client = new SecretHub.Client();
+                secrets = new SecretHub.Client().ResolveEnv();
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                return "error creating client";
+                return "error creating client/resolving environment";
             }
             try
             {
-                user = System.Environment.GetEnvironmentVariable("SECRETHUB_USERNAME");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                return "error fetching username";
-            }
-            try
-            {
-                username = client.Read(user + "/demo/username").Data;
+                username = secrets[System.Environment.GetEnvironmentVariable("DEMO_USERNAME")];
             }
             catch (Exception e)
             {
@@ -53,7 +44,7 @@ namespace example.Pages
             }
             try
             {
-                password = client.Read(user + "/demo/password").Data;
+                password = secrets[System.Environment.GetEnvironmentVariable("DEMO_PASSWORD")];
                 return "Hello, " + username + "!";
             }
             catch (Exception e)
