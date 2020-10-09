@@ -3,7 +3,7 @@
 </p>
 <br/>
 
-This example demonstrates the use of the [native SecretHub .NET integration](https://github.com/secrethub/secrethub-dotnet) in an ASP.NET application.
+This example demonstrates the use of the [.NET SDK](https://github.com/secrethub/secrethub-dotnet) in an ASP.NET application.
 Following the steps below will result in an welcome message on http://localhost:5000.
 If any error occurs, you will receive a descriptive error message in the console.
 
