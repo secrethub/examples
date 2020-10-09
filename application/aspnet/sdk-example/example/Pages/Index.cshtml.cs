@@ -31,7 +31,7 @@ namespace example.Pages
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                return "your username, password or secrethub credential have not been set correctly.";
+                return "Your username, password or SecretHub credential have not been set correctly.";
             }
         }
     }
