@@ -20,22 +20,22 @@ namespace example.Pages
             Message = response();
         }
         public static string response()
-        {
-            Dictionary<string, string> secrets;
+        {   
+            SecretHub.Client client;
             string username, password;
 
             try
-            {
-                secrets = new SecretHub.Client().ResolveEnv();
+            {   
+                client = new SecretHub.Client();
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                return "error creating client/resolving environment";
+                return "error creating client";
             }
             try
             {
-                username = secrets[System.Environment.GetEnvironmentVariable("DEMO_USERNAME")];
+                username = client.Resolve(System.Environment.GetEnvironmentVariable("DEMO_USERNAME"));
             }
             catch (Exception e)
             {
@@ -44,7 +44,7 @@ namespace example.Pages
             }
             try
             {
-                password = secrets[System.Environment.GetEnvironmentVariable("DEMO_PASSWORD")];
+                password = client.Resolve(System.Environment.GetEnvironmentVariable("DEMO_PASSWORD"));
                 return "Hello, " + username + "!";
             }
             catch (Exception e)

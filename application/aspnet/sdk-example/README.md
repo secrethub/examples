@@ -33,8 +33,8 @@ docker build . -t aspnet-secrethub-demo
 Run the docker demo, passing the newly created service credential and the paths in the secret store as environment variables.
 ```
 docker run -e SECRETHUB_CREDENTIAL=$(cat demo_service.cred) \
--e DEMO_USERNAME=${SECRETHUB_USERNAME}/demo/username \
--e DEMO_PASSWORD=${SECRETHUB_USERNAME}/demo/password \
+-e DEMO_USERNAME=secrethub://${SECRETHUB_USERNAME}/demo/username \
+-e DEMO_PASSWORD=secrethub://${SECRETHUB_USERNAME}/demo/password \
 -p 5000:5000 aspnet-secrethub-demo
 ```
 
