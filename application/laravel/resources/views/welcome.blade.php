@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 <head>
-<title>Hello World</title>
+<title>Example</title>
 </head>
 <body>
 <?php
