@@ -6,11 +6,11 @@ RUN dpkg -i secrethub-cli-amd64.deb
 RUN rm secrethub-cli-amd64.deb
 
 # Create template Play Framework project in Scala
-RUN printf 'demo\n\n' | sbt new playframework/play-scala-seed.g8
+RUN printf 'example\n\n' | sbt new playframework/play-scala-seed.g8
 
-COPY HomeController.scala demo/app/controllers/HomeController.scala
+WORKDIR ./example/
 
-WORKDIR ./demo/
+COPY . .
 
 # Expose Play Framework standard port 9000
 EXPOSE 9000
