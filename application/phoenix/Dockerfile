@@ -1,8 +1,7 @@
-FROM elixir:1.9.4
+FROM elixir:1.9.4-alpine
 
-RUN curl -sLJO https://deb.secrethub.io/amd64
-RUN dpkg -i secrethub-cli-amd64.deb
-RUN rm secrethub-cli-amd64.deb
+# Install SecretHub
+RUN apk add --repository https://alpine.secrethub.io/alpine/edge/main --allow-untrusted secrethub-cli
 
 RUN mix local.hex --force
 RUN mix archive.install hex phx_new 1.5.4 --force
