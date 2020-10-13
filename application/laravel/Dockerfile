@@ -1,10 +1,10 @@
 FROM composer:1.10.10
 
 # Create Laravel project
-RUN composer create-project laravel/laravel demo
+RUN composer create-project laravel/laravel example
 
 # Work with the Laravel Project
-WORKDIR ./demo
+WORKDIR ./example
 
 # Install SecretHub
 RUN apk add --repository https://alpine.secrethub.io/alpine/edge/main --allow-untrusted secrethub-cli
