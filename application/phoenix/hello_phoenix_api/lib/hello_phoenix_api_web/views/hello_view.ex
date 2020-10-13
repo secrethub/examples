@@ -2,6 +2,10 @@ defmodule HelloPhoenixApi.HelloView do
     use HelloPhoenixApiWeb, :view
   
     def render("index.json", %{}) do
-      %{hello: if(System.get_env("DEMO_USERNAME") != "" && System.get_env("DEMO_PASSWORD") != "", do: System.get_env("DEMO_USERNAME"), else: "stranger")}
+      if System.get_env("DEMO_USERNAME") != nil && System.get_env("DEMO_PASSWORD") != nil do
+        %{message: "Hello, " <> System.get_env("DEMO_USERNAME") <> "!"}
+      else 
+        %{message: "all the variables have been set"}
+      end
     end
   end

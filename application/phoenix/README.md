@@ -1,4 +1,4 @@
-This Phoenix example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's the case, you'll receive a personalized greeting message on http://localhost:4000, otherwise you will get a "Hello stranger" message.
+This Phoenix example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's the case, you'll receive a personalized greeting message on http://localhost:4000, otherwise you will get an error message.
 
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
