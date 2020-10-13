@@ -1,14 +1,14 @@
-defmodule HelloPhoenixApiWeb.Router do
-  use HelloPhoenixApiWeb, :router
+defmodule ExampleWeb.Router do
+  use ExampleWeb, :router
 
   pipeline :api do
     plug :accepts, ["json"]
   end
 
-  scope "/", HelloPhoenixApi do
+  scope "/", Example do
     pipe_through :api # Use the default browser stack
 
-    get "/", HelloController, :index
+    get "/", ExampleController, :index
   end
 
 end
