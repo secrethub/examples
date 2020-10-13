@@ -2,7 +2,7 @@ defmodule ExampleWeb.Router do
   use ExampleWeb, :router
 
   pipeline :api do
-    plug :accepts, ["json"]
+    plug :accepts, ["html"]
   end
 
   scope "/", Example do
