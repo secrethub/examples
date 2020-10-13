@@ -10,7 +10,6 @@ WORKDIR ./demo
 RUN apk add --repository https://alpine.secrethub.io/alpine/edge/main --allow-untrusted secrethub-cli
 
 # Copy prerequisite files
-COPY .env ./.env
 COPY welcome.blade.php ./resources/views/welcome.blade.php
 
 # Expose Laravel standard port
