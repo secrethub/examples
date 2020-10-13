@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://secrethub.io/img/integrations/play-framework/github-banner.png" alt="Play + SecretHub" height="230">
+</p>
+<br/>
+
 This Play example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's the case, you'll receive a `200` on http://localhost:8080 and if it's not, you'll get a `500`.
 
 ## Prerequisites
