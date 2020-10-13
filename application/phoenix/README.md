@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://secrethub.io/img/integrations/phoenix/github-banner.png" alt="Phoenix + SecretHub" height="230">
+</p>
+<br/>
+
 This Phoenix example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's the case, you'll receive a personalized greeting message on http://localhost:4000, otherwise you will get an error message.
 
 ## Prerequisites
