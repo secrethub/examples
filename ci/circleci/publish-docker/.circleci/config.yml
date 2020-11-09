@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  secrethub: secrethub/cli@1.0.0
+  secrethub: secrethub/cli@1.1.0
 
 jobs:
   publish:
