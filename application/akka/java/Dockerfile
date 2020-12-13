@@ -8,11 +8,11 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/reposit
     apk update && apk add sbt
 
 # Create Akka Framework project template in Java
-RUN printf 'demo\n\ndemo\n' | sbt new akka/akka-java-seed.g8
+RUN sbt new akka/akka-java-seed.g8 --name=example --package=example
 
-COPY AkkaQuickstart.java demo/src/main/java/demo/AkkaQuickstart.java
+COPY AkkaQuickstart.java example/src/main/java/example/AkkaQuickstart.java
 
-WORKDIR demo/
+WORKDIR example/
 
 # Add the SecretHub entrypoint
 ENTRYPOINT ["secrethub", "run", "--"]

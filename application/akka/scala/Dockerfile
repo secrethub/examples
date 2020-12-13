@@ -6,11 +6,11 @@ RUN dpkg -i secrethub-cli-amd64.deb
 RUN rm secrethub-cli-amd64.deb
 
 # Create Akka Framework project template in Scala
-RUN printf 'demo\n\ndemo\n' | sbt new akka/akka-scala-seed.g8
+RUN sbt new akka/akka-scala-seed.g8 -Dsbt.rootdir=true --name=example --package=example 
 
-COPY AkkaQuickstart.scala demo/src/main/scala/demo/AkkaQuickstart.scala
+COPY AkkaQuickstart.scala example/src/main/scala/example/AkkaQuickstart.scala
 
-WORKDIR ./demo/
+WORKDIR example/
 
 # Add the SecretHub entrypoint
 ENTRYPOINT ["secrethub", "run", "--"]

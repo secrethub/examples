@@ -1,4 +1,4 @@
-package demo;
+package example;
 
 import akka.actor.typed.ActorSystem;
 
@@ -13,17 +13,10 @@ public class AkkaQuickstart {
     	System.out.println("not all variables are set");
     } else {
     	//#main-send-messages
-    	greeterMain.tell(new GreeterMain.SayHello("Charles"));
+    	greeterMain.tell(new GreeterMain.SayHello(System.getenv("DEMO_USERNAME")));
     	//#main-send-messages
     }
-
-    try {
-      System.out.println(">>> Press ENTER to exit <<<");
-      System.in.read();
-    } catch (IOException ignored) {
-    } finally {
-      greeterMain.terminate();
-    }
+    greeterMain.terminate();
   }
 }
 
