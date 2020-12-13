@@ -6,7 +6,7 @@ RUN dpkg -i secrethub-cli-amd64.deb
 RUN rm secrethub-cli-amd64.deb
 
 # Create template Play Framework project in Scala
-RUN printf 'example\n\n' | sbt new playframework/play-scala-seed.g8
+RUN sbt new playframework/play-scala-seed.g8 -Dsbt.rootdir=true --name=example
 
 WORKDIR ./example/
 
