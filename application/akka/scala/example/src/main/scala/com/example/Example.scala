@@ -12,7 +12,7 @@ import scala.util.Failure
 import scala.util.Success
 
 //#main-class
-object QuickstartApp {
+object Example {
   //#start-http-server
   private def startHttpServer(routes: Route)(implicit system: ActorSystem[_]): Unit = {
     // Akka HTTP still needs a classic ActorSystem to start

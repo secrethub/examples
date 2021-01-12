@@ -13,7 +13,7 @@ import java.net.InetSocketAddress;
 import java.util.concurrent.CompletionStage;
 
 //#main-class
-public class QuickstartApp extends AllDirectives {
+public class Example extends AllDirectives {
     final Route root = path("", () -> get(() -> {
             if (System.getenv("DEMO_USERNAME") == null || System.getenv("DEMO_PASSWORD") == null) {
                 return complete("not all variables are set\n");
@@ -44,7 +44,7 @@ public class QuickstartApp extends AllDirectives {
     public static void main(String[] args) {
         //#server-bootstrapping
         Behavior<NotUsed> rootBehavior = Behaviors.setup(context -> {
-            startHttpServer(new QuickstartApp().root, context.getSystem());
+            startHttpServer(new Example().root, context.getSystem());
             return Behaviors.empty();
         });
 
@@ -61,7 +61,7 @@ public class QuickstartApp extends AllDirectives {
 //        final Http http = Http.get(system);
 //
 //        //In order to access all directives we need an instance where the routes are define.
-//        QuickstartApp app = new QuickstartApp();
+//        QuickstartApp app = new Example();
 //
 //        final CompletionStage<ServerBinding> binding =
 //                http.newServerAt("localhost", 8080)
