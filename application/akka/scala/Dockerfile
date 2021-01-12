@@ -1,16 +1,16 @@
 FROM mozilla/sbt:latest
 
 # Install SecretHub
-RUN curl -sLJO https://deb.secrethub.io/amd64
-RUN dpkg -i secrethub-cli-amd64.deb
-RUN rm secrethub-cli-amd64.deb
+RUN curl -sLJO https://deb.secrethub.io/amd64 && \
+    dpkg -i secrethub-cli-amd64.deb && \
+    rm secrethub-cli-amd64.deb
 
-# Create Akka Framework project template in Scala
-RUN sbt new akka/akka-scala-seed.g8 -Dsbt.rootdir=true --name=example --package=example 
+COPY example ./example/
 
-COPY AkkaQuickstart.scala example/src/main/scala/example/AkkaQuickstart.scala
+WORKDIR ./example/
 
-WORKDIR example/
+# Download project's dependencies
+RUN sbt update
 
 # Add the SecretHub entrypoint
 ENTRYPOINT ["secrethub", "run", "--"]
