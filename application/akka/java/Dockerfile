@@ -1,21 +1,18 @@
-FROM maven:ibmjava-alpine
+FROM mozilla/sbt:latest
 
 # Install SecretHub
-RUN apk add --repository https://alpine.secrethub.io/alpine/edge/main --allow-untrusted secrethub-cli
+RUN curl -sLJO https://deb.secrethub.io/amd64 && \
+    dpkg -i secrethub-cli-amd64.deb && \
+    rm secrethub-cli-amd64.deb
 
-# Install sbt
-RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
-    apk update && apk add sbt
+COPY example ./example/
 
-# Create Akka Framework project template in Java
-RUN sbt new akka/akka-java-seed.g8 --name=example --package=example
+WORKDIR ./example/
 
-COPY AkkaQuickstart.java example/src/main/java/example/AkkaQuickstart.java
-
-WORKDIR example/
+RUN sbt update
 
 # Add the SecretHub entrypoint
 ENTRYPOINT ["secrethub", "run", "--"]
 
 # Start the main process
-CMD ["mvn", "compile", "exec:exec"]
+CMD ["sbt", "run"]
