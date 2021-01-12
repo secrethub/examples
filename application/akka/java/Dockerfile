@@ -9,6 +9,7 @@ COPY example ./example/
 
 WORKDIR ./example/
 
+# Download project's dependencies
 RUN sbt update
 
 # Add the SecretHub entrypoint
