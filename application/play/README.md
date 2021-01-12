@@ -23,9 +23,9 @@ secrethub service init --description demo_service \
 --permission read --file demo_service.cred ${SECRETHUB_USERNAME}/demo
 ```
 
-Build the play docker demo
+Build the play docker demo. You can choose `java` or `scala`, depending on which language you want to see the example in action.
 ```
-docker build . -t play-secrethub-demo
+docker build {java | scala} -t play-secrethub-demo
 ```
 
 Run the docker demo with the secrets in the environment variables
