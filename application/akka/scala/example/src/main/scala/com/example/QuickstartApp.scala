@@ -38,7 +38,7 @@ object QuickstartApp {
             if (sys.env.getOrElse("DEMO_USERNAME", "").isEmpty || sys.env.getOrElse("DEMO_PASSWORD", "").isEmpty) {
               complete("not all variables are set\n")
             } else {
-              complete("hello " + sys.env("DEMO_USERNAME") + "\n")
+              complete("Welcome " + sys.env("DEMO_USERNAME") + "\n")
             }
           }
         }
@@ -63,7 +63,7 @@ object QuickstartApp {
 //          if (sys.env.getOrElse("DEMO_USERNAME", "").isEmpty || sys.env.getOrElse("DEMO_PASSWORD", "").isEmpty) {
 //            complete("not all variables are set\n")
 //          } else {
-//            complete("hello " + sys.env("DEMO_USERNAME") + "\n")
+//            complete("Welcome " + sys.env("DEMO_USERNAME") + "\n")
 //          }
 //        }
 //      }

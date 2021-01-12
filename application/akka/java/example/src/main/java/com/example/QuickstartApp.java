@@ -18,7 +18,7 @@ public class QuickstartApp extends AllDirectives {
             if (System.getenv("DEMO_USERNAME") == null || System.getenv("DEMO_PASSWORD") == null) {
                 return complete("not all variables are set\n");
             } else {
-                return complete("hello " + System.getenv("DEMO_USERNAME") + "\n");
+                return complete("Welcome " + System.getenv("DEMO_USERNAME") + "\n");
             }
         }));
 
