@@ -38,6 +38,8 @@ If you have a great example of a SecretHub integration yourself or a way to impr
   * [Rails](application/rails)
   * [Spring Boot](application/spring-boot)
   * [ASP.NET](application/aspnet)
+  * [Kitura](application/kitura)
+  * [Perfect](application/perfect)
 * DevOps tools
   * [Terraform](devops-tools/terraform)
   * Ansible

@@ -16,7 +16,14 @@ provider "kubernetes" {
   cluster_ca_certificate = base64decode(data.google_container_cluster.cluster.master_auth[0].cluster_ca_certificate)
 }
 
-provider "secrethub" {}
+terraform {
+  required_providers {
+    secrethub = {
+      source = "secrethub/secrethub"
+      version = "~> 1.2.3"
+    }
+  }
+}
 
 resource "google_kms_key_ring" "secrethub" {
   name     = "secrethub"

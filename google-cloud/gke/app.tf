@@ -95,7 +95,9 @@ resource "kubernetes_deployment" "demo_app" {
       }
     }
   }
+
+  wait_for_rollout = false
   depends_on = [
-      secrethub_access_rule.demo_app,
+    secrethub_access_rule.demo_app,
   ]
 }
