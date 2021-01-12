@@ -5,12 +5,12 @@ RUN curl -sLJO https://deb.secrethub.io/amd64
 RUN dpkg -i secrethub-cli-amd64.deb
 RUN rm secrethub-cli-amd64.deb
 
-# Create template Play Framework project in Java
-RUN sbt new playframework/play-java-seed.g8 -Dsbt.rootdir=true --name=example
+COPY example ./example/
 
 WORKDIR ./example/
 
-COPY . .
+# Download project's dependencies
+RUN sbt update
 
 # Expose Play Framework standard port 9000
 EXPOSE 9000

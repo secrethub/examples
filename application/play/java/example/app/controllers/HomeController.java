@@ -16,9 +16,9 @@ public class HomeController extends Controller {
      */
     public Result index() {
         if (System.getenv("DEMO_USERNAME") == null || System.getenv("DEMO_PASSWORD") == null) {
-            return Results.internalServerError("not all variables are set");
+            return Results.internalServerError("not all variables are set\n");
         } else {
-            return ok("Welcome " + System.getenv("DEMO_USERNAME"));
+            return ok("Welcome " + System.getenv("DEMO_USERNAME") + "\n");
         }
     }
 }

@@ -19,10 +19,10 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
    * a path of `/`.
    */
   def index() = Action { implicit request: Request[AnyContent] =>
-    if (sys.env.get("DEMO_USERNAME").getOrElse("").isEmpty() || sys.env.get("DEMO_PASSWORD").getOrElse("").isEmpty()) {
-      InternalServerError("not all variables are set")
+    if (sys.env.getOrElse("DEMO_USERNAME", "").isEmpty || sys.env.getOrElse("DEMO_PASSWORD", "").isEmpty) {
+      InternalServerError("not all variables are set\n")
     } else {
-      Ok("Welcome " + sys.env.get("DEMO_USERNAME").get)
+      Ok("Welcome " + sys.env("DEMO_USERNAME") + "\n")
     }
   }
 }
