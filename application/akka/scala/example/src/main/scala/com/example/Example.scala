@@ -11,9 +11,7 @@ import scala.io.StdIn
 import scala.util.Failure
 import scala.util.Success
 
-//#main-class
 object Example {
-  //#start-http-server
   private def startHttpServer(routes: Route)(implicit system: ActorSystem[_]): Unit = {
     // Akka HTTP still needs a classic ActorSystem to start
     import system.executionContext
@@ -28,9 +26,7 @@ object Example {
         system.terminate()
     }
   }
-  //#start-http-server
   def main(args: Array[String]): Unit = {
-    //#server-bootstrapping
     val rootBehavior = Behaviors.setup[Nothing] { context =>
       val route =
         path("") {
@@ -47,7 +43,6 @@ object Example {
       Behaviors.empty
     }
     val system = ActorSystem[Nothing](rootBehavior, "HelloAkkaHttpServer")
-    //#server-bootstrapping
   }
 
   // TODO Select the code above or the commented one
@@ -74,5 +69,4 @@ object Example {
 //    StdIn.readLine() // let it run until user presses return
 //  }
 }
-//#main-class
 

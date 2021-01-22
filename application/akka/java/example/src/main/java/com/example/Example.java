@@ -12,7 +12,6 @@ import akka.http.javadsl.server.AllDirectives;
 import java.net.InetSocketAddress;
 import java.util.concurrent.CompletionStage;
 
-//#main-class
 public class Example extends AllDirectives {
     final Route root = path("", () -> get(() -> {
             if (System.getenv("DEMO_USERNAME") == null || System.getenv("DEMO_PASSWORD") == null) {
@@ -22,7 +21,6 @@ public class Example extends AllDirectives {
             }
         }));
 
-    // #start-http-server
     static void startHttpServer(Route route, ActorSystem<?> system) {
         CompletionStage<ServerBinding> futureBinding =
             Http.get(system).newServerAt("localhost", 8080).bind(route);
@@ -39,10 +37,8 @@ public class Example extends AllDirectives {
             }
         });
     }
-    // #start-http-server
 
     public static void main(String[] args) {
-        //#server-bootstrapping
         Behavior<NotUsed> rootBehavior = Behaviors.setup(context -> {
             startHttpServer(new Example().root, context.getSystem());
             return Behaviors.empty();
@@ -50,7 +46,6 @@ public class Example extends AllDirectives {
 
         // boot up server using the route as defined below
         ActorSystem.create(rootBehavior, "ExampleAkkaHttpServer");
-        //#server-bootstrapping
     }
 
 //    TODO: Choose the top code or the commented one
@@ -72,7 +67,3 @@ public class Example extends AllDirectives {
 //    }
 
 }
-//#main-class
-
-
-
