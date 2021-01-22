@@ -44,29 +44,4 @@ object Example {
     }
     val system = ActorSystem[Nothing](rootBehavior, "HelloAkkaHttpServer")
   }
-
-  // TODO Select the code above or the commented one
-//  def main(args: Array[String]): Unit = {
-//
-//    implicit val system: ActorSystem[Nothing] = ActorSystem(Behaviors.empty, "my-system")
-//    // needed for the future flatMap/onComplete in the end
-//    implicit val executionContext: ExecutionContextExecutor = system.executionContext
-//
-//    val route =
-//      path("") {
-//        get {
-//          if (sys.env.getOrElse("DEMO_USERNAME", "").isEmpty || sys.env.getOrElse("DEMO_PASSWORD", "").isEmpty) {
-//            complete("not all variables are set\n")
-//          } else {
-//            complete("Welcome " + sys.env("DEMO_USERNAME") + "\n")
-//          }
-//        }
-//      }
-//
-//    val bindingFuture = Http().newServerAt("localhost", 8080).bind(route)
-//
-//    println(s"Server online at http://localhost:8080/\nPress RETURN to stop...")
-//    StdIn.readLine() // let it run until user presses return
-//  }
 }
-

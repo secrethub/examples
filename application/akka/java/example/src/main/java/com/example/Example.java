@@ -47,23 +47,4 @@ public class Example extends AllDirectives {
         // boot up server using the route as defined below
         ActorSystem.create(rootBehavior, "ExampleAkkaHttpServer");
     }
-
-//    TODO: Choose the top code or the commented one
-//    public static void main(String[] args) throws Exception {
-//        // boot up server using the route as defined below
-//        ActorSystem<Void> system = ActorSystem.create(Behaviors.empty(), "routes");
-//
-//        final Http http = Http.get(system);
-//
-//        //In order to access all directives we need an instance where the routes are define.
-//        QuickstartApp app = new Example();
-//
-//        final CompletionStage<ServerBinding> binding =
-//                http.newServerAt("localhost", 8080)
-//                        .bind(app.root);
-//
-//        System.out.println("Server online at http://localhost:8080/\nPress RETURN to stop...");
-//        System.in.read(); // let it run until user presses return
-//    }
-
 }
