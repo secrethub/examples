@@ -3,7 +3,7 @@
 </p>
 <br/>
 
-This Play example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's the case, you'll receive a `200` on http://localhost:8080 and if it's not, you'll get a `500`.
+This Play example checks if the environment variables `DEMO_USERNAME` and `DEMO_PASSWORD` have been set. If that's the case, you'll receive a `200` on http://localhost:9000 and if it's not, you'll get a `500`.
 
 ## Prerequisites
 1. [Docker](https://docs.docker.com/install/) installed and running
@@ -37,5 +37,5 @@ docker run -ti -p 9000:9000 \
   play-secrethub-demo
 ```
 
-If you now visit http://localhost:8080, you should see the welcome message including your username.
+If you now visit http://localhost:9000, you should see the welcome message including your username.
 
