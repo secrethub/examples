@@ -23,7 +23,7 @@ public class Example extends AllDirectives {
 
     static void startHttpServer(Route route, ActorSystem<?> system) {
         CompletionStage<ServerBinding> futureBinding =
-            Http.get(system).newServerAt("localhost", 8080).bind(route);
+            Http.get(system).newServerAt("0.0.0.0", 8080).bind(route);
 
         futureBinding.whenComplete((binding, exception) -> {
             if (binding != null) {
