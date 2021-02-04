@@ -1,0 +1,32 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+def versions = [
+    AkkaVersion: "2.6.10",
+    AkkaHttpVersion: "10.2.2",
+    ScalaBinary: "2.13"
+]
+dependencies {
+    implementation platform("com.typesafe.akka:akka-http-bom_${versions.ScalaBinary}:${versions.AkkaHttpVersion}")
+
+    implementation "com.typesafe.akka:akka-http_${versions.ScalaBinary}"
+    implementation "com.typesafe.akka:akka-http-jackson_${versions.ScalaBinary}"
+    implementation "com.typesafe.akka:akka-actor-typed_${versions.ScalaBinary}:${versions.AkkaVersion}"
+    implementation "com.typesafe.akka:akka-stream_${versions.ScalaBinary}:${versions.AkkaVersion}"
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+    testImplementation "com.typesafe.akka:akka-http-testkit_${versions.ScalaBinary}"
+    testImplementation "com.typesafe.akka:akka-actor-testkit-typed_${versions.ScalaBinary}:${versions.AkkaVersion}"
+    testImplementation 'junit:junit:4.12'
+}
+
+mainClassName = "com.example.QuickstartApp"
+
+run {
+    standardInput = System.in
+}
